@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "purpose": "Detection and score diagnostics for one explicitly supplied signature.",
+  "scope": "No corrected score, pass/fail conclusion, conversion probability, ancestry assignment or functional claim is produced.",
+  "eligibility": {
+    "input_cells": 6895,
+    "positive_total_cells": 6895,
+    "excluded_zero_total_cells": 0,
+    "metadata_reordered_by_cell_id": false,
+    "minimum_group_size": 20,
+    "counts_retained_below_minimum": true,
+    "rates_and_directional_flags_suppressed_below_minimum": true
+  },
+  "signature": {
+    "universe_n": 12051,
+    "up_n": 50,
+    "down_n": 50,
+    "universe_genes_absent_from_input": [],
+    "up_genes_absent_from_input": [],
+    "down_genes_absent_from_input": [],
+    "missing_gene_policy": "Zero-filled inside the explicit universe; original block denominators retained."
+  },
+  "definitions": {
+    "score": "occupancy_component + positive_rank_residual",
+    "occupancy_component": "0.5*(detected_up/up_n - detected_down/down_n)",
+    "zero_rank_baseline": "(universe_n - detected_universe_genes)/(2*universe_n)",
+    "centered_blocks": "Signed block contributions after removing their cancelling zero-rank baselines.",
+    "ucell_form": "Fixed cap1500 and frozen universe; signed block difference clipped at0. This is not a package-equivalence claim.",
+    "unclipped_ucell_difference": "Explanatory pre-clipping difference, not a proposed replacement scorer."
+  },
+  "groups": [
+    {
+      "group": {
+        "donor": "D4",
+        "treatment": "D",
+        "state": "broad_alpha_proxy"
+      },
+      "n": 1957,
+      "minimum_group_size": 20,
+      "rate_eligible": true,
+      "means": {
+        "total_counts": 11103.30608073582,
+        "k_positive": 2632.6152273888606,
+        "k_up": 3.0250383239652527,
+        "k_down": 14.097087378640778,
+        "up_detection_fraction": 0.06050076647930506,
+        "down_detection_fraction": 0.28194174757281554,
+        "zero_rank_baseline": 0.3907719182064202,
+        "up_rank_contribution": 0.419731433521314,
+        "down_rank_contribution": -0.5425543115240046,
+        "centered_up": 0.028959515314893814,
+        "centered_down": -0.15178239331758442,
+        "occupancy_component": -0.11072049054675527,
+        "occupancy_up": 0.03025038323965253,
+        "occupancy_down": -0.14097087378640777,
+        "positive_rank_residual": -0.012102387455935339,
+        "residual_bound": 0.03998236162634811,
+        "ucell_zero_floor_fraction": 0.9989780275932549,
+        "signed_rank": -0.12282287800269058,
+        "signed_log1p_CPT10K": -0.3196979286902877,
+        "ucell_form_1500": 1.4963977118769032e-05,
+        "unclipped_ucell_difference": -0.13457503500576048
+      },
+      "method_evaluable_cells": {
+        "signed_rank": 1957,
+        "signed_log1p_CPT10K": 1957,
+        "ucell_form_1500": 1957,
+        "unclipped_ucell_difference": 1957
+      },
+      "supplied_thresholds": {
+        "signed_rank": {
+          "evaluable_cells": 1957,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 1,
+          "not_positive_n": 1956,
+          "tie_n": 0,
+          "rate_eligible": true,
+          "positive_fraction": 0.000510986203372509
+        },
+        "signed_log1p_CPT10K": {
+          "evaluable_cells": 1957,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 2,
+          "not_positive_n": 1955,
+          "tie_n": 0,
+          "rate_eligible": true,
+          "positive_fraction": 0.001021972406745018
+        },
+        "ucell_form_1500": {
+          "evaluable_cells": 1957,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 2,
+          "not_positive_n": 1955,
+          "tie_n": 1955,
+          "rate_eligible": true,
+          "positive_fraction": 0.001021972406745018
+        },
+        "unclipped_ucell_difference": {
+          "evaluable_cells": 1957,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 2,
+          "not_positive_n": 1955,
+          "tie_n": 0,
+          "rate_eligible": true,
+          "positive_fraction": 0.001021972406745018
+        }
+      }
+    },
+    {
+      "group": {
+        "donor": "D4",
+        "treatment": "H_GLP",
+        "state": "broad_alpha_proxy"
+      },
+      "n": 4938,
+      "minimum_group_size": 20,
+      "rate_eligible": true,
+      "means": {
+        "total_counts": 6489.238558120696,
+        "k_positive": 1692.5409072498987,
+        "k_up": 2.349534224382341,
+        "k_down": 11.504860267314703,
+        "up_detection_fraction": 0.046990684487646824,
+        "down_detection_fraction": 0.23009720534629405,
+        "zero_rank_baseline": 0.4297759145610364,
+        "up_rank_contribution": 0.45270722589518375,
+        "down_rank_contribution": -0.5510245719227777,
+        "centered_up": 0.022931311334147275,
+        "centered_down": -0.12124865736174116,
+        "occupancy_component": -0.09155326042932362,
+        "occupancy_up": 0.023495342243823412,
+        "occupancy_down": -0.11504860267314702,
+        "positive_rank_residual": -0.006764085598270265,
+        "residual_bound": 0.02074678767526389,
+        "ucell_zero_floor_fraction": 0.9993924665856622,
+        "signed_rank": -0.09831734602759389,
+        "signed_log1p_CPT10K": -0.3105350348402218,
+        "ucell_form_1500": 4.009020089187304e-06,
+        "unclipped_ucell_difference": -0.13404866804805493
+      },
+      "method_evaluable_cells": {
+        "signed_rank": 4938,
+        "signed_log1p_CPT10K": 4938,
+        "ucell_form_1500": 4938,
+        "unclipped_ucell_difference": 4938
+      },
+      "supplied_thresholds": {
+        "signed_rank": {
+          "evaluable_cells": 4938,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 8,
+          "not_positive_n": 4930,
+          "tie_n": 2,
+          "rate_eligible": true,
+          "positive_fraction": 0.0016200891049007696
+        },
+        "signed_log1p_CPT10K": {
+          "evaluable_cells": 4938,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 3,
+          "not_positive_n": 4935,
+          "tie_n": 2,
+          "rate_eligible": true,
+          "positive_fraction": 0.0006075334143377885
+        },
+        "ucell_form_1500": {
+          "evaluable_cells": 4938,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 3,
+          "not_positive_n": 4935,
+          "tie_n": 4935,
+          "rate_eligible": true,
+          "positive_fraction": 0.0006075334143377885
+        },
+        "unclipped_ucell_difference": {
+          "evaluable_cells": 4938,
+          "non_evaluable_cells": 0,
+          "threshold": 0.0,
+          "rule": "score > supplied threshold",
+          "positive_n": 3,
+          "not_positive_n": 4935,
+          "tie_n": 2,
+          "rate_eligible": true,
+          "positive_fraction": 0.0006075334143377885
+        }
+      }
+    }
+  ],
+  "treatment_contrasts": [
+    {
+      "stratum": {
+        "donor": "D4",
+        "state": "broad_alpha_proxy"
+      },
+      "baseline": "D",
+      "comparison": "H_GLP",
+      "baseline_n": 1957,
+      "comparison_n": 4938,
+      "rate_and_flag_eligible": true,
+      "mean_change_comparison_minus_baseline": {
+        "total_counts": -4614.067522615123,
+        "k_positive": -940.0743201389619,
+        "k_up": -0.6755040995829118,
+        "k_down": -2.592227111326075,
+        "up_detection_fraction": -0.013510081991658235,
+        "down_detection_fraction": -0.05184454222652149,
+        "zero_rank_baseline": 0.03900399635461621,
+        "up_rank_contribution": 0.03297579237386977,
+        "down_rank_contribution": -0.008470260398773077,
+        "centered_up": -0.006028203980746539,
+        "centered_down": 0.030533735955843258,
+        "occupancy_component": 0.019167230117431655,
+        "occupancy_up": -0.0067550409958291174,
+        "occupancy_down": 0.025922271113260745,
+        "positive_rank_residual": 0.005338301857665074,
+        "residual_bound": -0.019235573951084224,
+        "ucell_zero_floor_fraction": 0.0004144389924072289,
+        "signed_rank": 0.024505531975096695,
+        "signed_log1p_CPT10K": 0.009162893850065856,
+        "ucell_form_1500": -1.0954957029581728e-05,
+        "unclipped_ucell_difference": 0.0005263669577055541
+      },
+      "paired_observations": null,
+      "directional_flags": {
+        "score_rises_while_down_detection_falls": true,
+        "score_rises_while_up_detection_falls": true
+      },
+      "scope": "Descriptive arithmetic directions, not tests of mechanism or treatment efficacy."
+    }
+  ],
+  "state_discrimination": [],
+  "provenance": {
+    "synthetic_example": false,
+    "input_files": {
+      "matrix": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/counts.npz",
+        "sha256": "8e295b14f539ea17ae1e4ba3fb1b9562d64e545b98edba198642df911ed427c3"
+      },
+      "genes": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/genes.txt",
+        "sha256": "04e622b844e8b695f70917931cae6ba7cff0cadfe3da312e2af354336a05cb97"
+      },
+      "cells": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/cells.txt",
+        "sha256": "ef6099d68319a9e5156a18adf914c5561a3a85ae3656ff231ea69d33f0bc058c"
+      },
+      "signature": {
+        "path": "repository/evidence/frozen_score.json",
+        "sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a"
+      },
+      "metadata": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/metadata.tsv",
+        "sha256": "9fb069418ae8603c91d938a0ccf409497c9e69bc09743e2037314c6aff71046a"
+      },
+      "thresholds": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/primary_D4_source_thresholds_thresholds.json",
+        "sha256": "e5c65f060e5654d0dc9ec63ef73bb36c95d76774411148b3031c1add741e3214"
+      },
+      "provenance": {
+        "path": "external_data_root/revision_02/diagnostic_worked/primary_D4/provenance.json",
+        "sha256": "83bd28acd84feeb2e27780385a45d62de293340d05d079366679db35b0e8086a"
+      }
+    },
+    "supplied": {
+      "source": "GSE266427 donorD4",
+      "contrast": "Harmine plus native GLP-1 versus vehicle at96h",
+      "population": "Previously fixed broad alpha proxy; not published curated candidate labels or ancestry truth.",
+      "upstream_masks": [
+        {
+          "accession": "GSM8246779",
+          "mask_file_sha256": "09496b4545a4ca5dbc53456f568b9ff880d4ff24f6e40d59bf1c61cf373a3c38",
+          "broad_alpha_n": 1957
+        },
+        {
+          "accession": "GSM8246781",
+          "mask_file_sha256": "88edb16a52cc3993c24951482fd5b5216fa0bc8f80f8b37dabce39e4b1917bc4",
+          "broad_alpha_n": 4938
+        }
+      ],
+      "matrix_scope": "Original frozen universe; whole-library totals preserved.",
+      "threshold_context": "Frozen source-reference thresholds from evidence/revision_02/source_threshold_freeze.json",
+      "plan_sha256": "ffe096805c8885ed7f00109fb116650313eb392e07a0ab63c2bc9312e9bd5930"
+    },
+    "threshold_origin": "Supplied by caller; not fitted or validated by this diagnostic.",
+    "code_sha256": {
+      "signature_diagnostic.py": "89eea3cd44fa8306df12c1e14d43f12f24e20f99984329dcfc1a8699bb4a7755",
+      "revision02_math.py": "cf03cd73716e845a49d576dd4f52ede8e0c1ae160571d1326762f5a0222fc0cd",
+      "revision_score.py": "df4f0ea9f328f23963d7f463a21d2f25fe8c6d87dfb5f48b8425cd1abc34ef9f"
+    },
+    "public_projection": "Physical paths replaced by logical roots; full execution report retained in external storage.",
+    "public_render_code_sha256": "39ebe23fff4b6f495944e6ec1f081d69fad8b438cf6aeb2cc1d10073bce4871f"
+  }
+}

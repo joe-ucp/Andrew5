@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "scope": "Scientific execution parameters for the retained measurement study. Descriptive extensions are outcome-informed; this file is not a prospective registration or biological validation.",
+  "frozen_score_sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a",
+  "original": {
+    "reference_seed": 7007,
+    "primary_seed": 7008,
+    "up_n": 50,
+    "down_n": 50,
+    "reference_pairs": [
+      [
+        "IIDP1697",
+        "6_S6",
+        "12_S12"
+      ],
+      [
+        "IIDP1738",
+        "7_S7",
+        "13_S13"
+      ],
+      [
+        "IIDP1770",
+        "9_S9",
+        "15_S15"
+      ],
+      [
+        "IIDP1776",
+        "10_S10",
+        "16_S16"
+      ]
+    ]
+  },
+  "revision_01": {
+    "frozen_score_sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a",
+    "thinning": {
+      "depths": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "seeds": [
+        7600,
+        7601,
+        7602,
+        7603,
+        7604
+      ],
+      "replicates": 5,
+      "populations": [
+        "alpha_broad",
+        "alpha_strict",
+        "alpha_cycle_high"
+      ],
+      "minimum_cells_report": 20,
+      "method": "multivariate hypergeometric without replacement; integer observed universe counts plus exact outside-universe count",
+      "eligibility": "original QC population with total observed counts>=depth",
+      "no_upward_sampling": true
+    },
+    "independent_validation": {
+      "thinning_depths": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "seeds": [
+        7800,
+        7801,
+        7802,
+        7803,
+        7804
+      ],
+      "replicates": 5,
+      "minimum_cells_per_type_donor_depth": 20,
+      "role": "independent alpha/beta state and count-thinning measurement test, not conversion, ancestry or functional truth",
+      "shared_feature_sensitivity": "Rerank represented universe only, intersect each up/down gene block with represented genes and update block denominators; report G and block coverage; no aliases or new gene fitting."
+    },
+    "benchmark": {
+      "ucell_exact": {
+        "descending_rank": "average tied rank of negative counts among the complete current universe G",
+        "cap": 1500,
+        "zero_counts": "ordinary full-universe average zero rank, then min(rank,1500); missing genes zero-filled in original-universe analysis",
+        "block_score": "(n*1500-sum(min(descending_midrank,1500)))/(n*1500-n*(n+1)/2)",
+        "block_clipping": "none",
+        "signed_score": "max(0,block_up-block_down)",
+        "unsupported_universe": "if G<1500 or n>=1500, mark method non-evaluable rather than alter cap"
+      }
+    },
+    "nuisance_precision": {
+      "seed_base": 7900,
+      "batches": 3,
+      "pool_sizes": [
+        400,
+        1600,
+        6400
+      ],
+      "group_draw_counts": [
+        200,
+        1000
+      ],
+      "all_donors": true,
+      "same_zero_control_pool": true,
+      "use_nested_pool_and_group_prefixes": true
+    }
+  },
+  "revision_02": {
+    "frozen_score_sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a",
+    "threshold_transport": {
+      "depths": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "seeds": [
+        7800,
+        7801,
+        7802,
+        7803,
+        7804
+      ],
+      "minimum_cells": 20,
+      "decision_rule": "strict score>threshold; exact ties retained; no optimized threshold",
+      "recalibration_population": "For each depth/draw compute target_depth_recalibrated q95 from all depth-eligible alpha cells, then apply that same threshold to the fixed-N>=10000 subset; do not recalibrate separately within the subset.",
+      "small_group_rule": "Retain all counts. State fractions and transitions require that state n>=20; AUROC requires both states n>=20; depth recalibration additionally requires >=20 depth-eligible alpha cells. Unsupported numerical summaries are NA with a reason."
+    },
+    "primary_fixed_cohort": {
+      "depths": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "criterion": "originaltotalcounts>=10000 in eacharm; retainthissamecohort acrossalldepths",
+      "population": "original broadalpha"
+    },
+    "matched_programs": {
+      "n_programs": 500,
+      "up_n": 50,
+      "down_n": 50,
+      "rng_seed": 8202,
+      "exclude_original100": true,
+      "unique_within_program": true,
+      "cross_program_reuse": true,
+      "slot_calipers": {
+        "absolute_pbar": 0.025,
+        "absolute_mean_log2_abundance": 0.5
+      },
+      "candidate_limit": 200,
+      "minimum_candidates_per_slot": 10,
+      "acceptance_each_donor_and_block": {
+        "mean_detection_abs_mismatch": 0.025,
+        "mean_log2_abundance_abs_mismatch": 0.25
+      },
+      "max_attempts": 50000,
+      "quantiles": "NumPy linear quantiles; exact rational comparisons for ties. Descriptive midrank percentile=(n_less+0.5*n_equal)/N; retain n_less,n_equal,n_greater and tie-safe interval [n_less/N,(n_less+n_equal)/N]. No randomization p-value."
+    },
+    "gene_analysis": {
+      "conditional_expression_scope": "cross-sectional positive-cell means, not longitudinal same-cell expression",
+      "concentration_definition": "Occupancy-only, within each block: per-donor and equal-donor mean absolute contributions; shares abs(c_g)/sum(abs(c)); HHI=sum(shares**2); all-zero denominator NA. Top5/top10 use the shared equal-donor mean absolute-contribution ranking, not a different donor-specific selection.",
+      "display_ranking": "top10perblock by equal-donor mean absoluteoccupancycontribution;alphabeticalgeneties; retainfulltable"
+    }
+  },
+  "influence": {
+    "contribution": "delta_signed_occupancy + delta_signed_residual",
+    "max_k": 5,
+    "integrity_atol": 2e-15,
+    "integrity_rtol": 0,
+    "near_zero_absolute_strict": 1e-12,
+    "scope": "Outcome-selected arithmetic subtraction with original universe/ranks/block denominators fixed; not an intervention or refitted score."
+  }
+}

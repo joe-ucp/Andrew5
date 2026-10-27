@@ -1,0 +1,2 @@
+status	specificity_percentile_reported	reason
+FAILED_CANDIDATE_SUPPORT	False	Fixed baseline matching requirements were not fulfilled; no relaxation or partial-program inference.

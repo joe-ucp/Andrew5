@@ -1,0 +1,54 @@
+[
+  {
+    "name": "GSM2230757_human1_umifm_counts.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230757/suppl/GSM2230757_human1_umifm_counts.csv.gz",
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230757/suppl/GSM2230757_human1_umifm_counts.csv.gz",
+    "http_status": 200,
+    "content_type": "application/x-gzip",
+    "bytes": 5670823,
+    "sha256": "6fdee6c7f0c2c3098f851c761d7fafa4f9a359af200703258f7fda255ddd3e69",
+    "valid_expected_format": true,
+    "access_utc": "2026-10-27T13:19:04.056776+00:00",
+    "path": "revision_01/sources/GSM2230757_human1_umifm_counts.csv.gz",
+    "validation_status": "VALIDATED_SOURCE_BYTES"
+  },
+  {
+    "name": "GSM2230758_human2_umifm_counts.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230758/suppl/GSM2230758_human2_umifm_counts.csv.gz",
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230758/suppl/GSM2230758_human2_umifm_counts.csv.gz",
+    "http_status": 200,
+    "content_type": "application/x-gzip",
+    "bytes": 4960352,
+    "sha256": "376bbea51a35096b56e3e30b36e33b8a43ead9abcf5c5c87b4fcbfd04e76d5d7",
+    "valid_expected_format": true,
+    "access_utc": "2026-10-27T13:19:00.038964+00:00",
+    "path": "revision_01/sources/GSM2230758_human2_umifm_counts.csv.gz",
+    "validation_status": "VALIDATED_SOURCE_BYTES"
+  },
+  {
+    "name": "GSM2230759_human3_umifm_counts.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230759/suppl/GSM2230759_human3_umifm_counts.csv.gz",
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230759/suppl/GSM2230759_human3_umifm_counts.csv.gz",
+    "http_status": 200,
+    "content_type": "application/x-gzip",
+    "bytes": 9767500,
+    "sha256": "187c77c0914043e2d56253a634b8cad5194ef87a64109e4f824df303ff5c215f",
+    "valid_expected_format": true,
+    "access_utc": "2026-10-27T13:19:03.961946+00:00",
+    "path": "revision_01/sources/GSM2230759_human3_umifm_counts.csv.gz",
+    "validation_status": "VALIDATED_SOURCE_BYTES"
+  },
+  {
+    "name": "GSM2230760_human4_umifm_counts.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz",
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz",
+    "http_status": 200,
+    "content_type": "application/x-gzip",
+    "bytes": 4253067,
+    "sha256": "fd54cc3d83e213ac473632b2b938f608d48378c48fb1e0d0f7919cf2efa41e86",
+    "valid_expected_format": true,
+    "access_utc": "2026-10-27T13:19:01.945832+00:00",
+    "path": "revision_01/sources/GSM2230760_human4_umifm_counts.csv.gz",
+    "validation_status": "VALIDATED_SOURCE_BYTES"
+  }
+]

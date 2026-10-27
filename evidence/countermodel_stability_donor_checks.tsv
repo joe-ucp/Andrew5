@@ -1,0 +1,5 @@
+donor	vehicle_alpha_n	treated_alpha_n	vehicle_beta_n	cycle_positive_n	cycle_low_n	cycle_high_n	cycle_valid	depth_distribution	seed_rule
+D1	1691	2186	9415	1650	423	423	True	vehicle alpha	7400 + numeric_donor*100 + batch_index; batch_index0..9
+D2	2217	3144	4508	2203	555	556	True	vehicle alpha	7400 + numeric_donor*100 + batch_index; batch_index0..9
+D3	804	2860	3209	773	201	201	True	vehicle alpha	7400 + numeric_donor*100 + batch_index; batch_index0..9
+D4	1957	4938	12413	1946	490	490	True	vehicle alpha	7400 + numeric_donor*100 + batch_index; batch_index0..9

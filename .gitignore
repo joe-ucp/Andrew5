@@ -1,0 +1,46 @@
+# Private project process and local configuration.
+/_UCP/
+/_ucp/
+/AGENTS.md
+/.storage.local.json
+/.codex/
+
+# External research data and generated outputs.
+/data_primary/
+/data_reference/
+/literature_sources/
+/data/
+/datasets/
+/raw/
+/downloads/
+/cache/
+/review_archive/
+/outputs/
+/evidence/reconstruction_logs/
+
+# Python environments and caches.
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Bulk data and packaging artifacts.
+*.npz
+*.npy
+*.mtx
+*.mtx.gz
+*.h5
+*.h5ad
+*.loom
+*.parquet
+*.part
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Document build intermediates.
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out

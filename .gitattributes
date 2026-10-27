@@ -1,0 +1,3 @@
+# Preserve exact published bytes across platforms for SHA-256 verification.
+# Disabling text conversion does not disable text diffs.
+* -text

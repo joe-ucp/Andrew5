@@ -1,0 +1,15 @@
+condition	supplement_label	donor	source	xlsx_row	xlsx_column
+alphaGFP	αGFP-1	IIDP 1697	Supplementary Table 8	5	3
+alphaGFP	αGFP-2	IIDP 1738	Supplementary Table 8	5	4
+alphaGFP	αGFP-3	IIDP 1764	Supplementary Table 8	5	6
+alphaGFP	αGFP-4	IIDP 1770	Supplementary Table 8	5	9
+alphaGFP	αGFP-5	IIDP 1776	Supplementary Table 8	5	12
+alphaGFP	αGFP-6	IIDP 1777	Supplementary Table 8	5	13
+alphaGFP	αGFP-7	IIDP 1925	Supplementary Table 8	5	17
+alphaPM	αPM-1	IIDP 1697	Supplementary Table 8	6	3
+alphaPM	αPM-2	IIDP 1738	Supplementary Table 8	6	4
+alphaPM	αPM-3	IIDP 1766	Supplementary Table 8	6	7
+alphaPM	αPM-4	IIDP 1770	Supplementary Table 8	6	9
+alphaPM	αPM-5	IIDP 1776	Supplementary Table 8	6	12
+alphaPM	αPM-6	IIDP 1925	Supplementary Table 8	6	17
+alphaPM	αPM-7	IIDP 1928	Supplementary Table 8	6	19

@@ -1,0 +1,15 @@
+{
+  "revision_plan_sha256": "ffe096805c8885ed7f00109fb116650313eb392e07a0ab63c2bc9312e9bd5930",
+  "source_sha256": "5257e99a0a8f02391a22a72304c873d57d827bac7a7d2c89dec9d5909164bf19",
+  "program_sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a",
+  "thresholds": {
+    "signed_rank": 0.0,
+    "signed_log1p_CPT10K": 0.0,
+    "ucell_form_1500": 0.0,
+    "unclipped_ucell_difference": 0.0
+  },
+  "quantile": "numpy linear q95",
+  "comparison": "strict score > threshold",
+  "alpha_n": 158,
+  "new_target_classification_outcomes_inspected": false
+}

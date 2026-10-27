@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "migrated_utc": "2026-10-27T14:19:33.346591+00:00",
+  "storage_policy": "Original per-cell, per-draw, batch and full feature tables are external data; legacy evidence/ keys are logical historical identifiers. Current physical paths resolve through code/data_paths.py to the configured external root. No legacy repository fallback.",
+  "scientific_content_unchanged": true,
+  "files": [
+    {
+      "logical_path": "evidence/primary_cell_scores.tsv.gz",
+      "data_relative_path": "original_results/primary_cell_scores.tsv.gz",
+      "bytes": 7316931,
+      "sha256": "4c11b188bcc9ac1004f08551f38d52e71bef225083ad2e6b98ce433bfd33351b",
+      "decoded_sha256": "131a3f13da62e3059a3369fa2ae1e7cb0ec2174853efa9f02a318fddc1185180"
+    },
+    {
+      "logical_path": "evidence/biological_challenge_cell_scores.tsv.gz",
+      "data_relative_path": "original_results/biological_challenge_cell_scores.tsv.gz",
+      "bytes": 395492,
+      "sha256": "88968759696d1291b8312689e4846348cd317b3afae6d7ddbd7e1c2dcd30aaf2",
+      "decoded_sha256": "c960c530da960e20d7222e8287be9b03b16dfaa8cc70016ca862c5b36f23c21c"
+    },
+    {
+      "logical_path": "evidence/reference_cell_scores.tsv",
+      "data_relative_path": "original_results/reference_cell_scores.tsv",
+      "bytes": 53369,
+      "sha256": "29266eb08605f93377b60742a62b7c641743fafa352bc5e18bdafdc28992e73a",
+      "decoded_sha256": "29266eb08605f93377b60742a62b7c641743fafa352bc5e18bdafdc28992e73a"
+    },
+    {
+      "logical_path": "evidence/calibration_simulations.tsv.gz",
+      "data_relative_path": "original_results/calibration_simulations.tsv.gz",
+      "bytes": 93388,
+      "sha256": "32391fc5a018758b384beb7e34ef0a584318652b5e2344b74476d55b4d1d995e",
+      "decoded_sha256": "c5cefa78de684491007c58a2050cabe6b00aa9775f6b5d18db152df15eaa511c"
+    },
+    {
+      "logical_path": "evidence/countermodel_stability_pools.tsv.gz",
+      "data_relative_path": "original_results/countermodel_stability_pools.tsv.gz",
+      "bytes": 2108096,
+      "sha256": "9fd1212ec3dcd12ae706a7428cbfde53e7b41129fc046ea127893211c21d904a",
+      "decoded_sha256": "be2afa8486480fa03085eeb81afa65838509a117e6ec4c1f9968a73fb773016a"
+    },
+    {
+      "logical_path": "evidence/countermodel_stability_group_draws.tsv",
+      "data_relative_path": "original_results/countermodel_stability_group_draws.tsv",
+      "bytes": 594706,
+      "sha256": "24f5358de5303d66d2546b9ea3b52e674a6f5bdd5cf331105bf07f22491cf112",
+      "decoded_sha256": "24f5358de5303d66d2546b9ea3b52e674a6f5bdd5cf331105bf07f22491cf112"
+    },
+    {
+      "logical_path": "evidence/countermodel_stability_batches.tsv",
+      "data_relative_path": "original_results/countermodel_stability_batches.tsv",
+      "bytes": 115871,
+      "sha256": "0c246ac57cad7eec900ace411b92f730595632ad9a153d9934cfd85c18f1002a",
+      "decoded_sha256": "0c246ac57cad7eec900ace411b92f730595632ad9a153d9934cfd85c18f1002a"
+    },
+    {
+      "logical_path": "evidence/depth_stability_replicates.tsv",
+      "data_relative_path": "original_results/depth_stability_replicates.tsv",
+      "bytes": 12288,
+      "sha256": "6f3d258ed9c7ee730ef11720743b2e316d8e11fae93a5931b383e3bfed0a739f",
+      "decoded_sha256": "6f3d258ed9c7ee730ef11720743b2e316d8e11fae93a5931b383e3bfed0a739f"
+    },
+    {
+      "logical_path": "evidence/depth_stability_sample_means.tsv",
+      "data_relative_path": "original_results/depth_stability_sample_means.tsv",
+      "bytes": 9295,
+      "sha256": "271520ff4579d89d1a8bfe48df7a311c61a2a0c48182dd29390d40094f9f3743",
+      "decoded_sha256": "271520ff4579d89d1a8bfe48df7a311c61a2a0c48182dd29390d40094f9f3743"
+    },
+    {
+      "logical_path": "evidence/reference_feature_selection.tsv",
+      "data_relative_path": "original_results/reference_feature_selection.tsv",
+      "bytes": 1290598,
+      "sha256": "c3348dc2c5cf3337ff9a78facc0df96d59f266ad0174735020cecfd55fc0a15b",
+      "decoded_sha256": "c3348dc2c5cf3337ff9a78facc0df96d59f266ad0174735020cecfd55fc0a15b"
+    }
+  ],
+  "verification_policy": "Retained originals require exact bytes. Future reconstructed gzip files may explicitly be checked by decoded_sha256, with wrapper differences reported; historical manifests and analysis receipts are not rewritten."
+}

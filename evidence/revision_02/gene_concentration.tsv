@@ -1,0 +1,11 @@
+donor	block	absolute_occupancy_total	fixed_top5_absolute_fraction	fixed_top10_absolute_fraction	herfindahl_absolute_concentration	ranking
+equal_donor_mean_absolute	down	0.030386776163106023	0.3145036433718082	0.5152546238944345	0.03814081569899704	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D1	down	0.02210940217923531	0.23572710349625675	0.5502469288975453	0.047414558106006414	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D2	down	0.03862448222789203	0.3198587397429529	0.5166163104962139	0.04030340415143374	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D3	down	0.024562119472567236	0.3651926588091315	0.5223997824328709	0.048164446476287356	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D4	down	0.03625110077272952	0.3224988412688304	0.48762088034566714	0.04234413376482599	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+equal_donor_mean_absolute	up	0.010743143102330818	0.4004495527246313	0.6216478539502337	0.05070937247598	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D1	up	0.009952533811475962	0.2866949534925441	0.5831048279686218	0.055719621470611574	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D2	up	0.01135839643008398	0.4474260977905501	0.6038056435930198	0.07011470671716777	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D3	up	0.010064293915040184	0.26953829879907903	0.572701691798201	0.053000896855501696	equal-donor mean absolute occupancy contribution; gene-symbol tie break
+D4	up	0.011597348252723138	0.5656681499274134	0.7146750017176321	0.08174967996334136	equal-donor mean absolute occupancy contribution; gene-symbol tie break

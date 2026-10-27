@@ -1,0 +1,43 @@
+name: Reproducibility checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  portable-checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      STRIKE007_CACHE: ${{ runner.temp }}/strike007-data
+      STRIKE007_TEST_TMPDIR: ${{ runner.temp }}/strike007-tests
+      MPLCONFIGDIR: ${{ runner.temp }}/strike007-matplotlib
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r code/requirements.txt
+      - name: Verify published files
+        run: python -B code/reproduce.py check
+      - name: Verify Git contains only public files
+        run: python -B code/public_inventory.py --check --git-check
+      - name: Run synthetic tests
+        run: python -B code/run_tests.py
+      - name: Run synthetic diagnostic
+        run: python -B code/reproduce.py demo --output-dir "${{ runner.temp }}/strike007-demo"
+      - name: Reproduce retained-table influence analysis
+        run: python -B code/reproduce.py influence --output-dir "${{ runner.temp }}/strike007-influence"
+      - name: Reproduce independent benchmark from fresh downloads
+        run: python -B code/reproduce.py stage independent --data-root "${{ runner.temp }}/strike007-independent-sources" --output-dir "${{ runner.temp }}/strike007-independent-run" --fetch

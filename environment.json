@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "python_requirement": "CPython 3.12",
+  "original_analysis_environment": {
+    "python_version": "3.12.14",
+    "platform": "Windows 11, AMD64",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8",
+      "reportlab": "4.4.9",
+      "pypdf": "6.10.0",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "analysis_dependencies": "code/requirements.txt",
+  "optional_artifact_dependencies": "code/requirements-artifacts.txt",
+  "scientific_parameters_and_seeds": "config/scientific_parameters.json",
+  "input_registry": "config/scientific_inputs.json",
+  "data_root": "Explicit --data-root, STRIKE007_CACHE, or external user configuration; no built-in default. Must be outside the repository.",
+  "output_root": "Explicit --output-dir outside the repository. Reproduction preserves published files and source data.",
+  "exact_bitwise_scope": "Deterministic scientific tables on the pinned dependencies; gzip wrapper timestamps, run metadata and rendered artifacts may differ.",
+  "reproduction_instructions": "docs/REPRODUCIBILITY.md"
+}

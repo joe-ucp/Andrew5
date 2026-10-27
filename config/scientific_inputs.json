@@ -1,0 +1,1883 @@
+{
+  "schema_version": 1,
+  "scope": "Registered scientific inputs and retained numerical comparisons. Sources are downloadable; derived inputs are rebuilt by declared stages or verified when reused.",
+  "compact": {
+    "evidence/biological_challenge_results.tsv": {
+      "sha256": "dcc4d49396a3b69e4be723d0bccf08e53da3eddc8a4da6f5b3e166a57efca6a0",
+      "bytes": 724
+    },
+    "evidence/biological_challenge_strata.tsv": {
+      "sha256": "daedfe1d78eb7dbd124c1b908c3f5dd6ad6c919346578982a6328170a4be57df",
+      "bytes": 761
+    },
+    "evidence/calibration_gate.tsv": {
+      "sha256": "6ebc823294764b2428e88e814b2d0a26bcc990a000af3ce96ad9086bb6ac209b",
+      "bytes": 221
+    },
+    "evidence/calibration_operating_points.tsv": {
+      "sha256": "471d80a9b075af49105d961ee1ab2bc735ef3765365998a9890541888721d3ee",
+      "bytes": 1287
+    },
+    "evidence/calibration_results.tsv": {
+      "sha256": "d61fc54e310a3bf780bab50b9ee100657141de558f4c18ebdd70b9b8e86bb477",
+      "bytes": 1526
+    },
+    "evidence/countermodel_results.tsv": {
+      "sha256": "4c2b0124e26cd0bf7641eedec3ec7e9bc8159fec5597b0f16a80b2eddde9f41d",
+      "bytes": 34502
+    },
+    "evidence/countermodel_stability_donor_checks.tsv": {
+      "sha256": "9993c277c850ac9af44362a85cf3733eb5ea4e14dcf1650e066a74ddfbfb320b",
+      "bytes": 564
+    },
+    "evidence/countermodel_stability_summary.tsv": {
+      "sha256": "670a8599145a3ea1a41025c4c99fa3ba0bd68d18e14b6b35447a05afb1d8957b",
+      "bytes": 23654
+    },
+    "evidence/depth_stability_summary.tsv": {
+      "sha256": "749000c08a20f32fa1def079b81ceae28b11454d146976ba8dca60bb40049078",
+      "bytes": 786
+    },
+    "evidence/primary_results.tsv": {
+      "sha256": "4ae908424d59978096efae6f6b1ac3068c88b8acf1373b35b40c004709972fce",
+      "bytes": 9906
+    },
+    "evidence/reference_capture_summary.tsv": {
+      "sha256": "3bf1673cdc28c9474f42afe5e1f06606db561d1ab5fd43ca9a8eac34bb87c460",
+      "bytes": 358
+    },
+    "evidence/reference_feature_capture.tsv": {
+      "sha256": "c7920b22d518a7510e9ad2bb6ca76b36e9cc3d3af92772d216c36214c64896ba",
+      "bytes": 21803
+    },
+    "evidence/revision_01/benchmark_feature_stability.tsv": {
+      "sha256": "7fbd171b802ad4b81197009c402ddb429eba16900ba62b33df4de73c8d1daf66",
+      "bytes": 408
+    },
+    "evidence/revision_01/benchmark_gene_membership.tsv": {
+      "sha256": "bdfd4bfcac03ee81dbd34754faccf0ea0e18618e30b0cad9037ddd6de8f3c409",
+      "bytes": 3112
+    },
+    "evidence/revision_01/benchmark_primary_contrasts.tsv": {
+      "sha256": "208f7527165a91184802dc2e6fa8436b8150ebdbdfd83c4aa1048dd049b16761",
+      "bytes": 6395
+    },
+    "evidence/revision_01/benchmark_primary_samples.tsv": {
+      "sha256": "0609933267ed652f94ae22afbc6f39fd3b0d05c7e7d098bddd09b77ac6f0b5ea",
+      "bytes": 15595
+    },
+    "evidence/revision_01/benchmark_reference.tsv": {
+      "sha256": "20f98cf4429d1e542ff02a63996c45f10cf3d2aa938b009ab205f686bec91093",
+      "bytes": 1598
+    },
+    "evidence/revision_01/detection_expectation_samples.tsv": {
+      "sha256": "5a6bf45fc070a76904ffa898254b5f568330cbca70866c9e03cff865462597fd",
+      "bytes": 126660
+    },
+    "evidence/revision_01/independent_component_thinning.tsv": {
+      "sha256": "4fec9f3cdb0bbde87664feaf86105cc50bac2592594f0cf4cc2765f4ec3b8eca",
+      "bytes": 57157
+    },
+    "evidence/revision_01/independent_feature_coverage.tsv": {
+      "sha256": "8b154616ebacaeb3d0fb5e6d158b8f0a974b53dbe6c2ff8db2b6321e166504e1",
+      "bytes": 2347
+    },
+    "evidence/revision_01/independent_missing_universe.tsv": {
+      "sha256": "6efe199dfcd3b60ff0dfc847da8a1e11406c06f8788ad77d9b26b784996fa03b",
+      "bytes": 17788
+    },
+    "evidence/revision_01/independent_native_components.tsv": {
+      "sha256": "5b05e0efcd7e5d8dc14557f3d996a42684df5ecbda39041c33d50d8da4504656",
+      "bytes": 10041
+    },
+    "evidence/revision_01/independent_state_benchmark.tsv": {
+      "sha256": "de3d477baa8503f499246e6e7637e78607de2fae26f991f8bf2138c5c4fb9d06",
+      "bytes": 25241
+    },
+    "evidence/revision_01/independent_thinning.tsv": {
+      "sha256": "080c8f40a786d575226ce66cfd30f5eab7bf80231c89cd18d6aee47fedd1ae30",
+      "bytes": 134707
+    },
+    "evidence/revision_01/nuisance_coupling_differences.tsv": {
+      "sha256": "e5bd011c75db7da1cbe0028a8529e1e72819914e4abdf4a16136c543d24956f8",
+      "bytes": 11260
+    },
+    "evidence/revision_01/nuisance_pool_drift.tsv": {
+      "sha256": "fbc5219e6322d091c43d04ec736611d474482ad4f50615e404814a89f8d281a9",
+      "bytes": 32528
+    },
+    "evidence/revision_01/nuisance_population_audit.tsv": {
+      "sha256": "41ba4f4572ba6f597f21ddf8861e4f56920cabde6f018f2ae929eb1ea892d68f",
+      "bytes": 445
+    },
+    "evidence/revision_01/nuisance_precision_batches.tsv": {
+      "sha256": "e6b945b5f022dd91def36563d547b66c76bcf45e3ea7ef38918f338cbca72b13",
+      "bytes": 153478
+    },
+    "evidence/revision_01/nuisance_precision_summary.tsv": {
+      "sha256": "ceb0c815b7da55d7e7de2e2fae70e388c601a9a2839cdf9d10d58e99bc9c3c86",
+      "bytes": 79179
+    },
+    "evidence/revision_01/observed_component_contrasts.tsv": {
+      "sha256": "9434e61efa2f29dccf43ce650434ccfc5afd844ba84a0f58a32bae166c83da6b",
+      "bytes": 48528
+    },
+    "evidence/revision_01/observed_components.tsv": {
+      "sha256": "f8362d2fc9ba40fed95f63d620b8e518f30c4c58a2dccc037fcbcdc7949ca143",
+      "bytes": 85217
+    },
+    "evidence/revision_01/observed_depth_bins.tsv": {
+      "sha256": "b1525d7a4dea994fbf2d0e8c38543aee1a280ed1497140625e03220bd158927f",
+      "bytes": 102393
+    },
+    "evidence/revision_01/observed_depth_relationships.tsv": {
+      "sha256": "68296589f40680e34821de8bcf001c45f82e7f29361dd814b2aca537c4bd3cb9",
+      "bytes": 107975
+    },
+    "evidence/revision_01/observed_depth_summary.tsv": {
+      "sha256": "4b3b182dd037a16251ac77b4ff8b86b860d4ead7eb0a9c94c9bc578b435bd4b2",
+      "bytes": 4858
+    },
+    "evidence/revision_01/observed_spearman.tsv": {
+      "sha256": "e84f9ec3404319f5f50703ea4ee389668a34691aa034e6a9e3f464cd35dd828d",
+      "bytes": 26910
+    },
+    "evidence/revision_01/operating_points.tsv": {
+      "sha256": "892c6bebe68b5aff4993621a4a1bbdd4a7c9ca1bce2e43ef12bb18b8ac4a4fe9",
+      "bytes": 3400
+    },
+    "evidence/revision_01/population_audit.tsv": {
+      "sha256": "253af56ca167cab5d6c004c0e0840cce4f0064e3d202d54e4f8f50f1bb7860c5",
+      "bytes": 2622
+    },
+    "evidence/revision_01/roc_frontiers.tsv": {
+      "sha256": "904be46d36b0f5e34a3a622bc7f1f00250104ca56e19d91839635963e1b87234",
+      "bytes": 8082
+    },
+    "evidence/revision_01/thinning_donor_contrasts.tsv": {
+      "sha256": "36e31e2c4140f7f549c5b0f00e998ff4a28dfeb69fd9d619a956ed5ea06ebf40",
+      "bytes": 423362
+    },
+    "evidence/revision_01/thinning_sample_summaries.tsv": {
+      "sha256": "53d773171526a9e28e9addba611db37d32d1c0601e359ec6ccc1a33629d40c41",
+      "bytes": 310306
+    },
+    "evidence/revision_01/thinning_stability_summary.tsv": {
+      "sha256": "774806f35ab230e05a2338905eb77d582b949529cfcd73010028ed290dfc7634",
+      "bytes": 11058
+    },
+    "evidence/revision_02/fixed_cohort_summary.tsv": {
+      "sha256": "8409b8d8c129226aacbfed2f624dc578d8ef9c5b2e18fb61e249ebd17f145fef",
+      "bytes": 12590
+    },
+    "evidence/revision_02/gene_concentration.tsv": {
+      "sha256": "c69aadb414424af42b27a5adb155c7337a657c9e4392e2e0b1c9a83361242c22",
+      "bytes": 1774
+    },
+    "evidence/revision_02/gene_contribution_summary.tsv": {
+      "sha256": "e93712bf11b20999152dcf88039a0bc513c47c53073fd983ba9a5f4bbb106c65",
+      "bytes": 18219
+    },
+    "evidence/revision_02/gene_donor_contrasts.tsv": {
+      "sha256": "1751d0d7783713419c36cf8413ae8f16cbe13b0ee7a71560067e4afd131d36ff",
+      "bytes": 206828
+    },
+    "evidence/revision_02/gene_sample_summaries.tsv": {
+      "sha256": "30c846a8e685c575c6bd2399e3b4df65aa8b6b2b58faaf68b4a1990c26998904",
+      "bytes": 154467
+    },
+    "evidence/revision_02/matched_baseline_quality.tsv": {
+      "sha256": "95caec583e84438d1a0277b1cec97ab9620592f80c5d9452bb8f63bf65118574",
+      "bytes": 201
+    },
+    "evidence/revision_02/matched_candidate_support.tsv": {
+      "sha256": "0bf1ac52d899b5d598846ba7d4065c63da245b6eace0880db1f9581b9ea90f4e",
+      "bytes": 2809
+    },
+    "evidence/revision_02/matched_program_comparison.tsv": {
+      "sha256": "68593edf7f818f58aee43d1c3f7abf90637a32c76586c996b5767aeba367d9df",
+      "bytes": 180
+    },
+    "evidence/revision_02/source_operating_points.tsv": {
+      "sha256": "effbb74aa450915013a2efbce31d203e480d1108b469ea6bc14ac630aad14405",
+      "bytes": 1708
+    },
+    "evidence/revision_02/target_native_thresholds.tsv": {
+      "sha256": "a55b279c5045023d3ad9af03512a4a8cb7bd09b206c02a78bf68d1d406880307",
+      "bytes": 732
+    },
+    "evidence/revision_02/threshold_summary.tsv": {
+      "sha256": "62834d2574aeaebd0626c46d624fe551b425858fd862ced8fde3ecddd3ac1953",
+      "bytes": 382616
+    },
+    "evidence/revision_02/ucell_floor_contrasts.tsv": {
+      "sha256": "407f9217a595dd792de1332fe2eb1ed88cbead272ae6afb9b116750758ce7cdf",
+      "bytes": 4237
+    },
+    "evidence/revision_02/ucell_floor_samples.tsv": {
+      "sha256": "3d8f5ba605ee771f55a63287ec4ac77d090dcca03acea67f07cb665568e7f6b5",
+      "bytes": 4136
+    },
+    "evidence/revision_02/zero_baseline_contrasts.tsv": {
+      "sha256": "41a239e1d6c536acbb43d3816de4c0e18d35ec667406f1cad034ed8367f7b404",
+      "bytes": 4904
+    },
+    "evidence/revision_02/zero_baseline_samples.tsv": {
+      "sha256": "89b1e41d5f4b30a3eb13edbca6a54a279bdb11a98acff3012c223115c5169c2f",
+      "bytes": 7154
+    },
+    "evidence/revision_03/influence_selected.tsv": {
+      "sha256": "81c1cbfb983e4f2ad9f73e2e916aee3537b6ddd318d89fc5ca97d3fcc3f418d6",
+      "bytes": 1819
+    },
+    "evidence/revision_03/influence_single.tsv": {
+      "sha256": "76e4305872d7ae945fbd50ae64e0d3d6f68e4d5edad57f8fd65992e1ab1cdf6a",
+      "bytes": 84973
+    },
+    "evidence/revision_03/influence_summary.tsv": {
+      "sha256": "fdff44a43192e15ebf853233560a97415b4bd1a640905ad01016835439f2f2d1",
+      "bytes": 1762
+    },
+    "evidence/revision_03/influence_topk.tsv": {
+      "sha256": "c53ae8e50587005f75047797ebbd490152314d4887ad062370eb6d3a3560714c",
+      "bytes": 5114
+    },
+    "evidence/sample_score_summary.tsv": {
+      "sha256": "1ab285356b7597fd4fcec3ece5344840875ae3fbf1bc885498ca71f503539b6a",
+      "bytes": 10965
+    },
+    "evidence/sign_flip_reference.tsv": {
+      "sha256": "36bd6fc78a944a4dd190d03d6072996fa8a8797a5dea65c80708cc4e69237387",
+      "bytes": 664
+    },
+    "evidence/frozen_score.json": {
+      "sha256": "9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a",
+      "bytes": 177926
+    },
+    "evidence/calibration_status.json": {
+      "sha256": "3fa04f362329eb04f719aba25d6bd89880057f1c1fa65d04d8112b87d815f225",
+      "bytes": 950
+    },
+    "evidence/revision_01/benchmark_programs.json": {
+      "sha256": "81ca6f40d7b643c716e77cbbcc26781fece6ecc47c2ab4d571f96ceaef650fc8",
+      "bytes": 10806
+    },
+    "evidence/revision_01/baron_input_manifest.json": {
+      "sha256": "01948688b6db98968d88d03e2eb9e735cb8dfa8addbbbe015891f9b961169d8f",
+      "bytes": 2825
+    },
+    "primary_sample_manifest.tsv": {
+      "sha256": "77f4657c374081a4b08291fd684d0eb621e28ef3ff587cde76c726fa36c16872",
+      "bytes": 10001
+    },
+    "source_manifest.tsv": {
+      "sha256": "1142bb62b2fd338653f284a5b150a10f6f85b554265f5e67c7d4d981741baa93",
+      "bytes": 27913
+    },
+    "cache_manifest.tsv": {
+      "sha256": "5a07ff3e6f258768a9bc801b99d190497fe836b2bbbb1fd120aba82b5916bb80",
+      "bytes": 3864
+    },
+    "evidence/identifiability_witness.csv": {
+      "sha256": "bd6190ef17ea07438275431bbac12543bbd027f525e6d1b414daaa0616b239b0",
+      "bytes": 6583
+    }
+  },
+  "data": {
+    "data_primary/GSE266427/GSM8246767_R407_D_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246767/suppl/GSM8246767_R407_D_barcodes.tsv.gz",
+      "sha256": "05e4f998e0e6ae9c7e4728f5120a769c6a27d903452fb146e0e44b0212a7967d",
+      "bytes": 73482,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246767_R407_D_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246767/suppl/GSM8246767_R407_D_features.tsv.gz",
+      "sha256": "2b6bf1e9a0e63e7eb4e2ded6aa06970876cdb0d0d49672340273e1f0c888754f",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246768_R407_H_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246768/suppl/GSM8246768_R407_H_barcodes.tsv.gz",
+      "sha256": "1a73c20d908528cb3e248eb326163ea250e2e7d6066b173a698bb32227a38a6f",
+      "bytes": 78280,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246768_R407_H_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246768/suppl/GSM8246768_R407_H_features.tsv.gz",
+      "sha256": "831d937881ebb835e16314bc148240ca959be52b35ce15eb2534a455ed19f5cc",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246769_R407_H_GLP_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246769/suppl/GSM8246769_R407_H_GLP_barcodes.tsv.gz",
+      "sha256": "8616fd995872e41ccc3a0f0a24609e80a71691e436a05e45010eb1ce0871dc62",
+      "bytes": 63695,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246769_R407_H_GLP_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246769/suppl/GSM8246769_R407_H_GLP_features.tsv.gz",
+      "sha256": "3e7012da59d892d25e922c4836ad7c9ea631cc02bfc6d31dd47b7a7048fd0acd",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246770_R407_H_LY_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246770/suppl/GSM8246770_R407_H_LY_barcodes.tsv.gz",
+      "sha256": "395626b308a0930fd16891c423332a1ee7cd438d67d1c297c24dd09ef959c007",
+      "bytes": 78215,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246770_R407_H_LY_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246770/suppl/GSM8246770_R407_H_LY_features.tsv.gz",
+      "sha256": "813559a46279f13096b9659aacddb5d471d8bd28636906446192bdc2a328ff2d",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246769_R407_H_GLP_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246769/suppl/GSM8246769_R407_H_GLP_matrix.mtx.gz",
+      "sha256": "8033116930a5182a098bd70e5054cded3776c95cca0cb3bf9ea1c51de8e16074",
+      "bytes": 84590400,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246771_HP21226_D_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246771/suppl/GSM8246771_HP21226_D_barcodes.tsv.gz",
+      "sha256": "73e7f5a7ceb8e94cadc2020b599a2d24485ac65b098c87f37552db0af8fd0f2a",
+      "bytes": 58591,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246771_HP21226_D_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246771/suppl/GSM8246771_HP21226_D_features.tsv.gz",
+      "sha256": "0ca2ae56f4e0386fe71c09121f5d11a317bec600843a448308bedbf3773da1c3",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246768_R407_H_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246768/suppl/GSM8246768_R407_H_matrix.mtx.gz",
+      "sha256": "5c7554d296d940b25aa995644cc35a27f40af656b98ac3475e9e82f1d7dffa43",
+      "bytes": 105380210,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246772_HP21226_H_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246772/suppl/GSM8246772_HP21226_H_barcodes.tsv.gz",
+      "sha256": "ebc7c674f313aadd538dcb998b24795098343bdbc0390ea787b14a40525d7634",
+      "bytes": 47068,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246772_HP21226_H_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246772/suppl/GSM8246772_HP21226_H_features.tsv.gz",
+      "sha256": "d6a2f01d335829cd788cd1398e7f404eebc208cc9c1fa4364226b85ddc785207",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246770_R407_H_LY_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246770/suppl/GSM8246770_R407_H_LY_matrix.mtx.gz",
+      "sha256": "92e6500faeed5bb99e075c5d38d4e6a21c505319795f990d75b43b7a109d4955",
+      "bytes": 97043390,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246773_HP21226_H_GLP_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246773/suppl/GSM8246773_HP21226_H_GLP_barcodes.tsv.gz",
+      "sha256": "89b55bc170a6649e68951c582281a5cf7b3c428d18373d12009c1574e9fec8e4",
+      "bytes": 61805,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246773_HP21226_H_GLP_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246773/suppl/GSM8246773_HP21226_H_GLP_features.tsv.gz",
+      "sha256": "a521b4dc2fa1850c13b8a70c123094ffe2ef3b4caad236bcbe1e0c7c60f88bf6",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246767_R407_D_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246767/suppl/GSM8246767_R407_D_matrix.mtx.gz",
+      "sha256": "1006e8bd4a307a892858eeb3fcb7e8f94563c9ab3850e19a5cc8959abc84c7b7",
+      "bytes": 124372633,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246774_HP21226_H_LY_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246774/suppl/GSM8246774_HP21226_H_LY_barcodes.tsv.gz",
+      "sha256": "426b74bbeeee09f06074b1cb9a77f31d4ff0d8cc482b6021a42395fbf031e320",
+      "bytes": 94422,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246774_HP21226_H_LY_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246774/suppl/GSM8246774_HP21226_H_LY_features.tsv.gz",
+      "sha256": "f1f88b0bcf8ea74bc3295ac941415d8823331d872dba4de1929bbb2d69830aad",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246772_HP21226_H_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246772/suppl/GSM8246772_HP21226_H_matrix.mtx.gz",
+      "sha256": "0f1d8c8659404361ed0b3322896de30e2fbb4a4ea9b79c165567650efc2eb845",
+      "bytes": 75573658,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246775_HP21227_D_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246775/suppl/GSM8246775_HP21227_D_barcodes.tsv.gz",
+      "sha256": "678ab56b94859481b33b2be183e758c7ce80a9f5c5db0e5699c8e64ab015596d",
+      "bytes": 31477,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246775_HP21227_D_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246775/suppl/GSM8246775_HP21227_D_features.tsv.gz",
+      "sha256": "a1f7939d749a872387d50641fd5959aad68c4543954d92c33f654e6c691c5e27",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246771_HP21226_D_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246771/suppl/GSM8246771_HP21226_D_matrix.mtx.gz",
+      "sha256": "35a5c8738b1e1f849f8e820f73d1acf18723352286d855d36075a438044574b1",
+      "bytes": 109348784,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246773_HP21226_H_GLP_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246773/suppl/GSM8246773_HP21226_H_GLP_matrix.mtx.gz",
+      "sha256": "2b8330126f39a61e6b63befd52edcefd1ffb516063f0c9a3bcbe7a865a7901f4",
+      "bytes": 98891287,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246776_HP21227_H_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246776/suppl/GSM8246776_HP21227_H_barcodes.tsv.gz",
+      "sha256": "48a3508a861b926b0019c95451a77c7d6634d0ccd2f1ef13b17dc93f52b1b43b",
+      "bytes": 35081,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246776_HP21227_H_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246776/suppl/GSM8246776_HP21227_H_features.tsv.gz",
+      "sha256": "e61e9b7544eeb88a177704f80046c56792692ce1af26bde10d90bc3c9b355a4c",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246777_HP21227_H_GLP_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246777/suppl/GSM8246777_HP21227_H_GLP_barcodes.tsv.gz",
+      "sha256": "0a6abb1b27b7af877ba5f1c76b7dc92dea17d744057369c544d1759e2ab475a8",
+      "bytes": 54227,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246777_HP21227_H_GLP_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246777/suppl/GSM8246777_HP21227_H_GLP_features.tsv.gz",
+      "sha256": "2e1369929b86a59b44955eb190969f104d29761e35c80fcdf4362c713f3f0ea5",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246775_HP21227_D_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246775/suppl/GSM8246775_HP21227_D_matrix.mtx.gz",
+      "sha256": "e3ac0f0728c3489006d1a33c781511d9ac4a4e6bc9797ff68d287d525a997e78",
+      "bytes": 49207471,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246778_HP21227_H_LY_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246778/suppl/GSM8246778_HP21227_H_LY_barcodes.tsv.gz",
+      "sha256": "89702d949796d29066f0d43f79962ac7eda2030616f785100052376ccb79d270",
+      "bytes": 76081,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246778_HP21227_H_LY_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246778/suppl/GSM8246778_HP21227_H_LY_features.tsv.gz",
+      "sha256": "f792bbbea880f22e72f606e13a0097679e53283470395f4bb9ce64342933406b",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246774_HP21226_H_LY_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246774/suppl/GSM8246774_HP21226_H_LY_matrix.mtx.gz",
+      "sha256": "830e2b6b74deda76f78d6c80f8e7f37da2af7d8801de2460bf56ffd885e648e6",
+      "bytes": 125274748,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246779_SAMN1433_D_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246779/suppl/GSM8246779_SAMN1433_D_barcodes.tsv.gz",
+      "sha256": "9ca0f02debd0e4214837ac5e381dfa135dc18eeb1193412c7fe6065a26ec66aa",
+      "bytes": 99203,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246779_SAMN1433_D_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246779/suppl/GSM8246779_SAMN1433_D_features.tsv.gz",
+      "sha256": "c480582332e6c2d5e6fc780a0ef08ad98c069e30813303f407afa23df705e279",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246776_HP21227_H_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246776/suppl/GSM8246776_HP21227_H_matrix.mtx.gz",
+      "sha256": "9b36cfeb43e98d514c34eb7dff1c2e47bee455981cc75ecb1292731c6877458c",
+      "bytes": 48228647,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246780_SAMN1433_H_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246780/suppl/GSM8246780_SAMN1433_H_barcodes.tsv.gz",
+      "sha256": "297c29640589b1d0ef2440e41614994a44f0de495571649b3b434362984378a1",
+      "bytes": 101135,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246780_SAMN1433_H_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246780/suppl/GSM8246780_SAMN1433_H_features.tsv.gz",
+      "sha256": "f1a8b3ee6fa1797f748b390fb6f2924e4a1e0dea6396c72fbf903d67aeea90ff",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246777_HP21227_H_GLP_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246777/suppl/GSM8246777_HP21227_H_GLP_matrix.mtx.gz",
+      "sha256": "c2cf64b30eb2e9c5e0bb346e588212fa3090f7e85567f62c7a500e3699c7a45a",
+      "bytes": 72853302,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246781_SAMN1433_H_GLP_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246781/suppl/GSM8246781_SAMN1433_H_GLP_barcodes.tsv.gz",
+      "sha256": "b7aab6131264d0eeb13d4256659ac3ede46945b39ff1463b44aafeb2ca7c2692",
+      "bytes": 167815,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246781_SAMN1433_H_GLP_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246781/suppl/GSM8246781_SAMN1433_H_GLP_features.tsv.gz",
+      "sha256": "fbba0da3c8e84df25b97a2eaaaf2c1546bd1fc031efe54b3c3096cde95f2dac3",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246778_HP21227_H_LY_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246778/suppl/GSM8246778_HP21227_H_LY_matrix.mtx.gz",
+      "sha256": "5ac782fcc5f3e9102661c0d59da30b2016cf319201d811fa92601c26e62962a8",
+      "bytes": 97688933,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246782_SAMN1433_H_LY_barcodes.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246782/suppl/GSM8246782_SAMN1433_H_LY_barcodes.tsv.gz",
+      "sha256": "7467f3ae229da69abc89c1e66dca422fb126885093adc1decb08fead44aed52d",
+      "bytes": 119300,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246782_SAMN1433_H_LY_features.tsv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246782/suppl/GSM8246782_SAMN1433_H_LY_features.tsv.gz",
+      "sha256": "9c2d9fc9fa1d6a405c0790b4b2bb9475b4408cfed4ae47e0fc51fb4aebdc9cd5",
+      "bytes": 333437,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246780_SAMN1433_H_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246780/suppl/GSM8246780_SAMN1433_H_matrix.mtx.gz",
+      "sha256": "c47d1eac16238f8acc904715a15d4d6597c10877e37d295686dae07e74cdd0e6",
+      "bytes": 126809182,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246779_SAMN1433_D_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246779/suppl/GSM8246779_SAMN1433_D_matrix.mtx.gz",
+      "sha256": "16cd7ee2a13bd8e0a05e47d53a790aa42037be58d5a3c4180f06b6873f6d155b",
+      "bytes": 137662837,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246782_SAMN1433_H_LY_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246782/suppl/GSM8246782_SAMN1433_H_LY_matrix.mtx.gz",
+      "sha256": "b9e26522fb570c035557514b9752e18770399ef6a7ceeca89b3a4f2a35a79103",
+      "bytes": 108469886,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE266427/GSM8246781_SAMN1433_H_GLP_matrix.mtx.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8246nnn/GSM8246781/suppl/GSM8246781_SAMN1433_H_GLP_matrix.mtx.gz",
+      "sha256": "d6e2718bc66b7da204d355da42a2156b38ba28523efc74d0bc02f3d75d9644aa",
+      "bytes": 161484598,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_primary/GSE217837/GSE217837_scRNA_count_matrix.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE217nnn/GSE217837/suppl/GSE217837_scRNA_count_matrix.csv.gz",
+      "sha256": "7431fbad604e919b955a3b9f328c992be889a3b96326eb621c3d4dd50ce2b363",
+      "bytes": 238501287,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "literature_sources/S4_tables.xlsx": {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-019-0942-8/MediaObjects/41586_2019_942_MOESM6_ESM.xlsx",
+      "sha256": "e243a13decc6b93896d020fa1d5ffbfa12661d1860ec73046d9742400eac89a0",
+      "bytes": 166671,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_reference/GSE117454_RNA_seq_matrix.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE117nnn/GSE117454/suppl/GSE117454_RNA_seq_matrix.txt.gz",
+      "sha256": "eeb87e0f6ecf662c57a024b58e9d498aa195467e4ccf339a9b7a362d429100b8",
+      "bytes": 1210943,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "data_reference/GSE123844_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123844/suppl/GSE123844_RAW.tar",
+      "sha256": "5257e99a0a8f02391a22a72304c873d57d827bac7a7d2c89dec9d5909164bf19",
+      "bytes": 5048320,
+      "access_date": "2026-10-26",
+      "kind": "source"
+    },
+    "revision_01/sources/GSM2230757_human1_umifm_counts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230757/suppl/GSM2230757_human1_umifm_counts.csv.gz",
+      "sha256": "6fdee6c7f0c2c3098f851c761d7fafa4f9a359af200703258f7fda255ddd3e69",
+      "bytes": 5670823,
+      "kind": "source"
+    },
+    "revision_01/sources/GSM2230758_human2_umifm_counts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230758/suppl/GSM2230758_human2_umifm_counts.csv.gz",
+      "sha256": "376bbea51a35096b56e3e30b36e33b8a43ead9abcf5c5c87b4fcbfd04e76d5d7",
+      "bytes": 4960352,
+      "kind": "source"
+    },
+    "revision_01/sources/GSM2230759_human3_umifm_counts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230759/suppl/GSM2230759_human3_umifm_counts.csv.gz",
+      "sha256": "187c77c0914043e2d56253a634b8cad5194ef87a64109e4f824df303ff5c215f",
+      "bytes": 9767500,
+      "kind": "source"
+    },
+    "revision_01/sources/GSM2230760_human4_umifm_counts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2230nnn/GSM2230760/suppl/GSM2230760_human4_umifm_counts.csv.gz",
+      "sha256": "fd54cc3d83e213ac473632b2b938f608d48378c48fb1e0d0f7919cf2efa41e86",
+      "bytes": 4253067,
+      "kind": "source"
+    },
+    "data_primary/sparse_cache/GSM8246767.npz": {
+      "sha256": "548a5de8c376da2504154b1114abda7dcf0bc9c4c37b285701913c561bd375f2",
+      "bytes": 75275302,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246768.npz": {
+      "sha256": "4b0f3d4e3aaf7c6b98bc051133a8c8a87a219b22269b15817dd112aafc6d318a",
+      "bytes": 63138839,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246769.npz": {
+      "sha256": "653a465abd4d46f2891f01cafec171cc2c83599a99c6324f9aacd6732e6baa08",
+      "bytes": 49925430,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246770.npz": {
+      "sha256": "36fbf0010ce753af902d0c958b32f425277fe3fd1f42dfd34260c22f5c6287a2",
+      "bytes": 57834376,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246771.npz": {
+      "sha256": "2f86e9b35492d0fa3d2ca0a3dd2a3d889be484ad6b3a04ace89b313f5e4e0625",
+      "bytes": 65580317,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246772.npz": {
+      "sha256": "1724290419c8fea98ab1a1f1be1149abd1e1a87953766e207f77795f02fcdd24",
+      "bytes": 43276077,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246773.npz": {
+      "sha256": "5e903298e2003b9f391d6b6a68c03875760c1a977db7f75eaf9303bdc6c4216f",
+      "bytes": 59259988,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246774.npz": {
+      "sha256": "b507f7b6c3b28dbc41a2db87fa5c564b886e620bca8c41f5e26471cb4be8aeaa",
+      "bytes": 74167432,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246775.npz": {
+      "sha256": "99b3610a654fcca529c744ef25f5c757eb7457b9aef2521919167919bda0ff2a",
+      "bytes": 26482498,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246776.npz": {
+      "sha256": "64e9a5d2d5dde00d5ab35e1de4a7aab7605fdf102b909fc0b59f975f8cab4d5b",
+      "bytes": 26195575,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246777.npz": {
+      "sha256": "7207c541f67a809e5587f97a9ec50dfef27e425cb4f3a7f55cfb8fac29273068",
+      "bytes": 42841140,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246778.npz": {
+      "sha256": "fe7d5af168173d84c0043ab16026496c3a3342d4ad2102cb63358fd15d93788d",
+      "bytes": 57924124,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246779.npz": {
+      "sha256": "121d93f60adf4fc96e3180616ebc466281b4ee51b4a1ca1ee7089865214d2837",
+      "bytes": 80866718,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246780.npz": {
+      "sha256": "84b91c1a60c8075c79df858464f97cf9db648079ac1c1161ce41272b4d31337b",
+      "bytes": 73095639,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246781.npz": {
+      "sha256": "52a11d99c4146c94b4d5a5acb5e94173e4c0b077cf898da9b0526efc24fd27e8",
+      "bytes": 86335705,
+      "kind": "derived_cache"
+    },
+    "data_primary/sparse_cache/GSM8246782.npz": {
+      "sha256": "6a547d260446279679b50c970f37ad8c7dffac08ad2c228cbb5472fa4ad0aac8",
+      "bytes": 62058175,
+      "kind": "derived_cache"
+    },
+    "data_primary/GSE217837/submitted_expression.npz": {
+      "sha256": "dbbf42d648eb1d435ed2c7f437b4361e3ddead42e8eb9fbafa971ea773dc8cf2",
+      "bytes": 236048577,
+      "kind": "derived_cache"
+    },
+    "data_primary/GSE217837/features.tsv": {
+      "sha256": "467c37774874f3fa04ac4270b396b44dd22e93e1c5177a6470aa8369e4bcf8c7",
+      "bytes": 238715,
+      "kind": "derived_cache"
+    },
+    "data_primary/GSE217837/barcodes.tsv": {
+      "sha256": "1e8d6e69a92f6ba291fb25e8bf6fe7c545ba091e6121e1c65512873f95777e63",
+      "bytes": 257592,
+      "kind": "derived_cache"
+    },
+    "original_results/primary_cell_scores.tsv.gz": {
+      "sha256": "4c11b188bcc9ac1004f08551f38d52e71bef225083ad2e6b98ce433bfd33351b",
+      "bytes": 7316931,
+      "kind": "derived_result",
+      "decoded_sha256": "131a3f13da62e3059a3369fa2ae1e7cb0ec2174853efa9f02a318fddc1185180"
+    },
+    "original_results/biological_challenge_cell_scores.tsv.gz": {
+      "sha256": "88968759696d1291b8312689e4846348cd317b3afae6d7ddbd7e1c2dcd30aaf2",
+      "bytes": 395492,
+      "kind": "derived_result",
+      "decoded_sha256": "c960c530da960e20d7222e8287be9b03b16dfaa8cc70016ca862c5b36f23c21c"
+    },
+    "original_results/reference_cell_scores.tsv": {
+      "sha256": "29266eb08605f93377b60742a62b7c641743fafa352bc5e18bdafdc28992e73a",
+      "bytes": 53369,
+      "kind": "derived_result",
+      "decoded_sha256": "29266eb08605f93377b60742a62b7c641743fafa352bc5e18bdafdc28992e73a"
+    },
+    "original_results/calibration_simulations.tsv.gz": {
+      "sha256": "32391fc5a018758b384beb7e34ef0a584318652b5e2344b74476d55b4d1d995e",
+      "bytes": 93388,
+      "kind": "derived_result",
+      "decoded_sha256": "c5cefa78de684491007c58a2050cabe6b00aa9775f6b5d18db152df15eaa511c"
+    },
+    "original_results/countermodel_stability_pools.tsv.gz": {
+      "sha256": "9fd1212ec3dcd12ae706a7428cbfde53e7b41129fc046ea127893211c21d904a",
+      "bytes": 2108096,
+      "kind": "derived_result",
+      "decoded_sha256": "be2afa8486480fa03085eeb81afa65838509a117e6ec4c1f9968a73fb773016a"
+    },
+    "original_results/countermodel_stability_group_draws.tsv": {
+      "sha256": "24f5358de5303d66d2546b9ea3b52e674a6f5bdd5cf331105bf07f22491cf112",
+      "bytes": 594706,
+      "kind": "derived_result",
+      "decoded_sha256": "24f5358de5303d66d2546b9ea3b52e674a6f5bdd5cf331105bf07f22491cf112"
+    },
+    "original_results/countermodel_stability_batches.tsv": {
+      "sha256": "0c246ac57cad7eec900ace411b92f730595632ad9a153d9934cfd85c18f1002a",
+      "bytes": 115871,
+      "kind": "derived_result",
+      "decoded_sha256": "0c246ac57cad7eec900ace411b92f730595632ad9a153d9934cfd85c18f1002a"
+    },
+    "original_results/depth_stability_replicates.tsv": {
+      "sha256": "6f3d258ed9c7ee730ef11720743b2e316d8e11fae93a5931b383e3bfed0a739f",
+      "bytes": 12288,
+      "kind": "derived_result",
+      "decoded_sha256": "6f3d258ed9c7ee730ef11720743b2e316d8e11fae93a5931b383e3bfed0a739f"
+    },
+    "original_results/depth_stability_sample_means.tsv": {
+      "sha256": "271520ff4579d89d1a8bfe48df7a311c61a2a0c48182dd29390d40094f9f3743",
+      "bytes": 9295,
+      "kind": "derived_result",
+      "decoded_sha256": "271520ff4579d89d1a8bfe48df7a311c61a2a0c48182dd29390d40094f9f3743"
+    },
+    "original_results/reference_feature_selection.tsv": {
+      "sha256": "c3348dc2c5cf3337ff9a78facc0df96d59f266ad0174735020cecfd55fc0a15b",
+      "bytes": 1290598,
+      "kind": "derived_result",
+      "decoded_sha256": "c3348dc2c5cf3337ff9a78facc0df96d59f266ad0174735020cecfd55fc0a15b"
+    },
+    "revision_01/benchmark/GSM8246767_scores.npz": {
+      "sha256": "84d39bb85a9c7ce75ad336d58df87c9c732524c56b518e5bde334c7c189e9345",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246769_scores.npz": {
+      "sha256": "81cb67f19cc38ba9da1116bf214042ab266d6759ff02bfaf16e2d63986e49543",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246771_scores.npz": {
+      "sha256": "839fba4a51ee069b6b76017117690a023bf2550f0dcd72ca5fbd5111b1da4f25",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246773_scores.npz": {
+      "sha256": "14fb592c685d7487829870b6d2b28c60f6d8fd63c6d81fd094271d5e4cf6597d",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246775_scores.npz": {
+      "sha256": "f1ba091ab726d4a21216814703491e046912f5a7e11becd323208a3040fdcbdf",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246777_scores.npz": {
+      "sha256": "5eefe55efc60a9d2f0f11f81da3ed4a1f2b5409e3390b477bcd1517bb7d60704",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246779_scores.npz": {
+      "sha256": "cffb9935c3797e76519fb5b8220d60212e984368e5acfc26ad83500cf3c3aaae",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/GSM8246781_scores.npz": {
+      "sha256": "2e753bfd88135a620a7ce4e2d023b2978abea21cee9457d751d67c7d36775e0b",
+      "kind": "derived_result"
+    },
+    "revision_01/benchmark/reference_benchmark_cells.tsv.gz": {
+      "sha256": "f32267e75ddf46e62c328596e97d83cfeb5235c9b9cf91615bbdfe181dff8d9b",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_alpha_depth1000.tsv.gz": {
+      "sha256": "adaea6524a2d0623dd9ccf2adfacc66a8e34b092eca70cecf62f15143fd8ed03",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_alpha_depth10000.tsv.gz": {
+      "sha256": "cd2d25f3cf865d282db7ac0b81dc0d44f498d538243627b50070bc8f6dab1f9b",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_alpha_depth2000.tsv.gz": {
+      "sha256": "081f13d8f9a7e75f0967f0b7549c31485e93a44f572e7dc9f02add3807d765b2",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_alpha_depth5000.tsv.gz": {
+      "sha256": "f76ffa262773297b648edc77d8c8224f2a3241311e121bee119df67cc6bac742",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_beta_depth1000.tsv.gz": {
+      "sha256": "7e980addd6711708fc38bcdd004ed9f2065034b4fe951c56c878dc5e6871ef4e",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_beta_depth10000.tsv.gz": {
+      "sha256": "b4b47ce02e6f3b0c8523aae9728d114a105b2a20e314ecd5a6fc5ce608283697",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_beta_depth2000.tsv.gz": {
+      "sha256": "aa9b221fb5e5b398b1d30ea36edf1645593d493a0ac206abbcbe3312c181fdd0",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron1_beta_depth5000.tsv.gz": {
+      "sha256": "78f152ace37d5b99c440472cfa62aa32fffb976c8b0b05613e23d4e097357053",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_alpha_depth1000.tsv.gz": {
+      "sha256": "faa98f07e535ef710c1a69f339a3399a04618fc27a1f76fec557fcb29cd1c0d1",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_alpha_depth10000.tsv.gz": {
+      "sha256": "02a44f83b4075df8d8e5b7e22f4247e475e0035ecfb17053b0dc6cf6c91625aa",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_alpha_depth2000.tsv.gz": {
+      "sha256": "7aa92e7fc38d6e04cffa62443d1a09e495b49e849f68a539dd943f7d43ab2403",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_alpha_depth5000.tsv.gz": {
+      "sha256": "a22794db94159863ccd78cb4a73466b26793553787de5771d6d209ff5462b158",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_beta_depth1000.tsv.gz": {
+      "sha256": "72e777954e5c15f3bad3dd318b75c97bfec1b0dd5b619115d8d56cce65deb1ad",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_beta_depth10000.tsv.gz": {
+      "sha256": "f46b09496519369808962446111b55843cb09d33959ca33bf5da4fe2c9fb1d3d",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_beta_depth2000.tsv.gz": {
+      "sha256": "c0dcea6fc6a63100afd96043a5f45c8457a110c45832629a66f3317e36e3f17f",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron2_beta_depth5000.tsv.gz": {
+      "sha256": "94e72eeaaa6bb38ebc22c193aca41326cda806e36710cc755b1261cf80316bda",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_alpha_depth1000.tsv.gz": {
+      "sha256": "86a6ccff89b8a161791f4d1a960f84ef674d97b11c6afc994b179f8e741a226f",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_alpha_depth10000.tsv.gz": {
+      "sha256": "d060574988acfd0b62e3f38a86168c7364c6ec660784349a08b3b37c9b09f972",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_alpha_depth2000.tsv.gz": {
+      "sha256": "1eadb70f38daa9c4bc20f3d7c38c6ea66633ef6619dd12c1b979ac42fb6fd087",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_alpha_depth5000.tsv.gz": {
+      "sha256": "6b954cabbe6dce21a978bce7c87efeeecb8ece2b4838f50889469dc0c16a6eee",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_beta_depth1000.tsv.gz": {
+      "sha256": "ca0f18f1285efbb30c7a0f49bee75886f65ccd3bffa47a4074b685fd68ef9df8",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_beta_depth10000.tsv.gz": {
+      "sha256": "d2fd54e661c72a0fed09a286800acdc3cbe9caa1540424f5fe0e3f3612f9775d",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_beta_depth2000.tsv.gz": {
+      "sha256": "7461f3fe222fc3dc1dc8cfc1d1fb01f013191950df43ab069394292e9323380a",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron3_beta_depth5000.tsv.gz": {
+      "sha256": "df429dd6f221ac77a6987b98e90a1e9edae5832dfe6935c57c2e15ee9cece6bb",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_alpha_depth1000.tsv.gz": {
+      "sha256": "1f1746667323369bb17d1968653d67ae7799b04d03682e3be87afd6602182957",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_alpha_depth10000.tsv.gz": {
+      "sha256": "fc38f10d6496c60ebb277d06ca365c7b92e573b34b2948c9768f632d269dc4d3",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_alpha_depth2000.tsv.gz": {
+      "sha256": "4e70fbfe4a0a352b23efec26072691826256b79ecc4459b0fb3ce9a8b171bb41",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_alpha_depth5000.tsv.gz": {
+      "sha256": "b92bc7c2d117ed9dbb1ddb28ed6fa80666133d99f027bfd04d358883e1be12f7",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_beta_depth1000.tsv.gz": {
+      "sha256": "47fca8a3b1a7a481eca5d81479adbbcebcb8152e84c2d910bea0245a47770c42",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_beta_depth10000.tsv.gz": {
+      "sha256": "9c43de0cc347e7f15ed934094822fb9a250a2d4fd6df828cb3a2a795cef7b82c",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_beta_depth2000.tsv.gz": {
+      "sha256": "bf88a11d757951b4e030443dccb1997fd9c7b640e24340f504c8878212af72a8",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/baron4_beta_depth5000.tsv.gz": {
+      "sha256": "8967b63c48098a57f6317570c94b074ff75357a397a114bc81254e87ab42315d",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246767_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "b84b019032a62a4923d7670c18293a801f33c94c440611cd5609962eed6768aa",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246767_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "e3a7141b0b5f869ad3c4b87713875559df8cf4a8501226de09db7bb3ef97c605",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246767_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "c58c2a885e4a122e18d13cbdf475c2b9f634343f8971c96fe854484bc516045f",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246767_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "7d23b820653be9b12599379347fa502c92bb6adea9617130e6a2ddf6f4a516f5",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246769_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "30ceebdd026415e8d06058f52d9cf098f5e867fb0187798323bf021eeaea7475",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246769_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "32937dfc579047804894af01f8bced1e66ce1e1453fe9c5a8d8d2c1f158c4f15",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246769_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "ec418c1fa1201fb6dce679d00aec37ca97861eed71475aeee2997fa8b8eb692e",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246769_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "50bba2b6e68498b8240fbd132ae6cebd7cace1ea5b79dfe08a42a181dea54d36",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246771_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "58547bd84035a6f2dcc5f7f55a0c621689571c4794d2513d5fbd0d3853c638f0",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246771_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "460b21eaea362cb37b1cee3cf190953b4bfef608e14e4eee09814f2bc10c6a2e",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246771_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "a3f745e72a3d829488502b68a909d68c22333f6a34a58fa0579e78297f58aa8e",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246771_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "74a6ed6476badb2f524e5b12fb4276080fc062c1131c773e2d78c272d023e1bc",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246773_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "fcc1cd926aea9a95810d42877d754792538e87531ed94d5630fcb8ca20cb54e2",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246773_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "f9ad968d290b1a799ca8704e0b3dfa9cde6d792f7b739938faa68d2b2c88a743",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246773_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "ace192c188cf6bfe256656982c6695de1aed60ac777d6ae68b838f0c4a35bb48",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246773_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "959566f6c0bb709b4c1adb413ce9fcb625cdcfefa5b98a92b549c659eeec1b1f",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246775_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "cc76abff8bd392e5dcc4f18a0ca0b8ab5c0137dbeeb19bf96bd8b5c50b4f6e60",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246775_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "6330a674266ebddf1bbc5dfea4c7365468f331738f25f3f271360ed06b425a50",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246775_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "179ee435d2a0b809129742a208234f6cfdd9f140d51a1ff4fee25be9fa50183d",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246775_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "a16c6ecd5d751bdd3353dc97ebe1c9899902ecfb48a2ca51ca5902e0d75efa6a",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246777_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "ce7933c2e545661e8830859feb238a3eca0d7353f1dd3e5ad8199600f30ad7f4",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246777_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "4feb86123e41ffd2a0076ced558160e7313d2d46fd1c2d1dd24eef550ede4d4b",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246777_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "c517c8617a15847c653a4df686bc659cbd76be98470dd338dc54850524783edf",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246777_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "0fa336530dab5038ffb4fcfacc5cc7035cc86c7c78af47c5488f332283aadff2",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246779_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "7cf85dfa4f2d185109b973250f5e2e4348dd605ee1c43b61733adb07524be4b4",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246779_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "b23b42f8789496456a91b38429f97f9de4b4ecbb3e9dbfc32bdd604b631efbce",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246779_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "7e6eb0d87381ea953fa55f32703670a1e6a8f600b5d32d5a42dcda1519a8816c",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246779_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "f56495a8fc3f46120951613e75f30410f5bd751c6f3919a7228f087f21b7ae6e",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246781_alpha_broad_depth1000.tsv.gz": {
+      "sha256": "8beab2316617025ce5186b82c8b193aed89e3a9ba3bc1aba8f215f6479a8dae7",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246781_alpha_broad_depth10000.tsv.gz": {
+      "sha256": "d411598a9541fa7a19583eb2b68bedd4b1929cb670f05ffd3f57bea618a70407",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246781_alpha_broad_depth2000.tsv.gz": {
+      "sha256": "7f12fbf0342dff7cfdcb3f9d65470226cc505810afbe2c15bb18d40c4b09ff2a",
+      "kind": "derived_result"
+    },
+    "revision_01/detection_expectation/GSM8246781_alpha_broad_depth5000.tsv.gz": {
+      "sha256": "eebf323a4044ff81dbc5287abb09a13407b9ccb6167632ffa86ffeddd5f1eb76",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246767_cell_components.tsv.gz": {
+      "sha256": "9de16fc68ab6eb03a1d643d8a5ad5fa4a4a4063e2308630190af1ae8ffced01d",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246767_depth10000_thinning.npz": {
+      "sha256": "1e3953104ca11b8b0b918dc9edd56f73fde912d773bb985d024f5101547e5082",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246767_depth1000_thinning.npz": {
+      "sha256": "58258bad054213ebd93ffe85b866d9462ef38da2e2380654a566e4a335580cc1",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246767_depth2000_thinning.npz": {
+      "sha256": "93f056c9f0ed3b5f6cbb646a6ef87a126d96f8d2519d50eed24a775af67176af",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246767_depth5000_thinning.npz": {
+      "sha256": "6b5c4cdfcb3c0a3bb6851052c1dc89b9d37694645371e1376ef2e3d9a531140c",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246769_cell_components.tsv.gz": {
+      "sha256": "eaa8692aedd4ac9b56c2a1b58b70a7d979de0cb7d09ba71f417c2d9ea7a3dc8c",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246769_depth10000_thinning.npz": {
+      "sha256": "4f0d8f0dc0b1380d40af06573ea4c7489608045a07c4b447566cb7ef7b6c3bd9",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246769_depth1000_thinning.npz": {
+      "sha256": "d81366112b98662b6eb3810810efa8ced44516eb24cde894b310a0e4d2e5a675",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246769_depth2000_thinning.npz": {
+      "sha256": "b82ee27344e2572338de6998be31895830cfbcb62774c70b5576d76e9b88ffb1",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246769_depth5000_thinning.npz": {
+      "sha256": "9e04582e0967447e7062715b28e85fc708de6b7c80d19a09d3f6ea3f310a73d4",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246771_cell_components.tsv.gz": {
+      "sha256": "e0801e2829f40c437d908605e62943f21792988ec4df92b8af127a81bca07771",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246771_depth10000_thinning.npz": {
+      "sha256": "a1e50db7d16b821b7e162742893dcba7f806293877b83dc053853077d06669ab",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246771_depth1000_thinning.npz": {
+      "sha256": "1794504a8b5a43048105ed82cde37ffabb0ed1d14f905fee36785ca43dc58434",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246771_depth2000_thinning.npz": {
+      "sha256": "55c98cd66b3d017ca59febe8400af06597bcd89ade75c93ea3df38957e941e0a",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246771_depth5000_thinning.npz": {
+      "sha256": "e859aeac601f294922631e10c7e1c0d8a1edcb90c81487040c80598ccd18f057",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246773_cell_components.tsv.gz": {
+      "sha256": "9753e7607337ee99d97abc9b60a4847efdca275351ff6e54e9384932f1268f2a",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246773_depth10000_thinning.npz": {
+      "sha256": "98020ab8d775aa7248ea41a73ccdda22ccb177953dc48feca10c9788a5342003",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246773_depth1000_thinning.npz": {
+      "sha256": "21c1b81c12db882564746d4e416c4ae53b9dc586030bc738f516ae44677a4b6d",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246773_depth2000_thinning.npz": {
+      "sha256": "e65e760e20d329629469b8cc1feb86dec4cbff8f5718a00f6db16102f9249b16",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246773_depth5000_thinning.npz": {
+      "sha256": "df85a8acf5dfdbf707a0988873c8985f239034a2547d5d100611c4a56ed58b5a",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246775_cell_components.tsv.gz": {
+      "sha256": "a3471d737efa455adafd71278b7016d6a5685095606a73fbe60ce938210e9062",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246775_depth10000_thinning.npz": {
+      "sha256": "fb4d4561c897c7c48867d8559d993e9c0358e79c809b80db54685641c959c9ca",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246775_depth1000_thinning.npz": {
+      "sha256": "0211964ee0f86e25abb59f26ab6a87974a72051cd26bff5b8b90e7e13d796d2f",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246775_depth2000_thinning.npz": {
+      "sha256": "31e994dd5380349515d18d4ec7e99c686b0b042f6c96346c884e16b689bce870",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246775_depth5000_thinning.npz": {
+      "sha256": "9e5fb65de6e5dc7e9e9a409ac0cc5a1db83ca23d3ec2c0ee886fdb163820f84e",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246777_cell_components.tsv.gz": {
+      "sha256": "ac5de2dd8544d133774e734008b13f528a466ad8468ee22ec7ec90970889cc03",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246777_depth10000_thinning.npz": {
+      "sha256": "40bfe06c801bd6b8657bf2bb7bd4d54dbd24fd3160676c9e0eae08e3e79a471c",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246777_depth1000_thinning.npz": {
+      "sha256": "0d1b1f3cedbb358e9dde8637d23ec4b3525fdd16cdc2ca0673f0f48d0697ed4a",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246777_depth2000_thinning.npz": {
+      "sha256": "59f79cfce8b83a3cec34cf5f7ae0d62f90f2c26e3a0d06ab3cc67145f5446eae",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246777_depth5000_thinning.npz": {
+      "sha256": "e59402a7102c1e533b1faa158bb7b722a04341793190e1d64754dc09e6c7b8e5",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246779_cell_components.tsv.gz": {
+      "sha256": "09496b4545a4ca5dbc53456f568b9ff880d4ff24f6e40d59bf1c61cf373a3c38",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246779_depth10000_thinning.npz": {
+      "sha256": "121db09ae093dfc9f9a578a9a2a7df12c81a8f9b6995ca0427cc8ab7cb8b3133",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246779_depth1000_thinning.npz": {
+      "sha256": "42d317b65b6e3c350fec6d3d46e0fc314251faf5f3348375249a2cf78eb5683e",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246779_depth2000_thinning.npz": {
+      "sha256": "727b2c69c706104bf164f1d45a51a42bcc19d4c483c06ca6a08933323e08bd76",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246779_depth5000_thinning.npz": {
+      "sha256": "698371194ad60885423e57ab7c3abb1a10a188624e4d716eda75617350f3ed12",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246781_cell_components.tsv.gz": {
+      "sha256": "88edb16a52cc3993c24951482fd5b5216fa0bc8f80f8b37dabce39e4b1917bc4",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246781_depth10000_thinning.npz": {
+      "sha256": "4d8f0f5c776274c5ecde523780c54381277c0ec61d5241409afe0634d0755653",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246781_depth1000_thinning.npz": {
+      "sha256": "63f3df9389d5c4568b4416c98573fbbaa13f410359e8cb84223329831ebd8083",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246781_depth2000_thinning.npz": {
+      "sha256": "6efdec45855c9a50aa68e8a6fbe33e20e4843bcc44b4da7d123c194b02877f10",
+      "kind": "derived_result"
+    },
+    "revision_01/GSM8246781_depth5000_thinning.npz": {
+      "sha256": "79b7b878509c15d766cfd902474f11cf69565141c06e3cbcc3c6ee6d0408c37b",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/baron_component_thinning_draws.tsv.gz": {
+      "sha256": "21613d5cbca063c8cdf7413f3a0ae3864b4b149d4352d5d5f27696eb359f1e9b",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/baron_method_thinning_draws.tsv.gz": {
+      "sha256": "b9502aebd3e7a419191bcb18d21d4deed700aea7fa1d4fd016511749105d6561",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/baron_native_components.tsv.gz": {
+      "sha256": "c44caebd8328054f2331b277c024990731749a7921b46fd29d39467bd46469ba",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor1_original_universe_scores.npz": {
+      "sha256": "285dd81d7d856231516e007a5968269f02a75783ef9779b29c10dab5d6f52891",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor1_shared_features_scores.npz": {
+      "sha256": "6ac2d52b14528634486ac83070ebb5d180de70997a29101b10de39b32d5655dd",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor2_original_universe_scores.npz": {
+      "sha256": "bea4ff63d06c07176e6c96e2594314f5a29573562b6c27a7c02daac218f61e3f",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor2_shared_features_scores.npz": {
+      "sha256": "5bcf8edc9992b5ac28af8b2c013520579b44a76bfb8a6115f21e05ee2b756c83",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor3_original_universe_scores.npz": {
+      "sha256": "f546f43d4621f05682aafb5b34f6fae9abab84304dcc87ca7fcd7916d4ee6d5e",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor3_shared_features_scores.npz": {
+      "sha256": "b1ea0f52ea7fcf4469dc8ecbbc5aed734ea37358bfa35080a9e3693bfb5649be",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor4_original_universe_scores.npz": {
+      "sha256": "d1a28940ec2de7c4f44769c7c954ee8e4a135654e6db43e42b490cfa4d5a7895",
+      "kind": "derived_result"
+    },
+    "revision_01/independent/donor4_shared_features_scores.npz": {
+      "sha256": "e9a568f9cb139001d4104bebc1ce21fa7d985a5010a461a8d5ff52fc0b9d6fd2",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/all_group_draws.tsv.gz": {
+      "sha256": "e0b0dc1056959db8ecb3e3d32a7abd0a5e7928b91006285e23dea88ab94bd32f",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch0_independent_profile_depth_pools.npz": {
+      "sha256": "ecc578c976c31fe729b5c640e22ac9de5bac1d6d20582975ee4e7e8bea2b4c46",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch0_paired_profile_own_depth_pools.npz": {
+      "sha256": "a7e2115332041ac70ccb63660a45fc7013caf964f53d6ccb88789509c2c9e5b5",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch1_independent_profile_depth_pools.npz": {
+      "sha256": "31c306b424dbc14c6e91048def7cf1b19c420f790562cd40dc04b5758d0cb9fa",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch1_paired_profile_own_depth_pools.npz": {
+      "sha256": "99d89e47fed70bbb76c49348bcb9de97e88d5afe833881173e92531cb34b9bf6",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch2_independent_profile_depth_pools.npz": {
+      "sha256": "4e957e02e520e0c0fb2dd42cf22be642b735435911a84fe093327f2677523e32",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D1_batch2_paired_profile_own_depth_pools.npz": {
+      "sha256": "d5031df2e87901df97216cb28e533d3c1761674fdebcd089e35274300e6ebda0",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch0_independent_profile_depth_pools.npz": {
+      "sha256": "6f6ee5219b1cd351065adae58c86ab1e180cc0bb2e9c9d71c1a92d7adec2ce2b",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch0_paired_profile_own_depth_pools.npz": {
+      "sha256": "b81ca34aefc99161de1c6b9221498d61668d1e1e1297d9390020169dce7eb005",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch1_independent_profile_depth_pools.npz": {
+      "sha256": "7c3bdf8eccc1aa1c121516af21b5b1d620e95a50724b167d6632f2801aca7bae",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch1_paired_profile_own_depth_pools.npz": {
+      "sha256": "632b832260765d9ec89b5d07a69b45f5ac2d60a55d522d65bed3ce8bc9c36531",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch2_independent_profile_depth_pools.npz": {
+      "sha256": "02ac6de9d85ff4c6b9fbc9f0b2f531a6b19dffc6d940e4c24565f52665ef0481",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D2_batch2_paired_profile_own_depth_pools.npz": {
+      "sha256": "148ce67c3a6c4e6d2eefdda8c50ba4d84ba40479aae4d32db9098a7e2e6fc69c",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch0_independent_profile_depth_pools.npz": {
+      "sha256": "611cc7e59dd1f6dbd2cb0178179da64a05769f49defaa00adc451b4d9b93fa89",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch0_paired_profile_own_depth_pools.npz": {
+      "sha256": "4b3a91a61e2569211fefff0962473b0a6a70a74d3878310e362d496018b980ec",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch1_independent_profile_depth_pools.npz": {
+      "sha256": "523ffe66988f74ce92032bf109199d0f5a7a89999e6da58d0c5bb72bcb52bf98",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch1_paired_profile_own_depth_pools.npz": {
+      "sha256": "9f422b10802ab5d74db70dcc132c62a8dfa8224edad0588cb144a31d922d1ee0",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch2_independent_profile_depth_pools.npz": {
+      "sha256": "10a3e799ffa5053026ed2ae26223c0aae4411cc607caa774b3e4c6a82f68e70c",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D3_batch2_paired_profile_own_depth_pools.npz": {
+      "sha256": "4111c59de908868654d9028659f01d809263d94c68e2554a4f86d9db97f0557f",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch0_independent_profile_depth_pools.npz": {
+      "sha256": "f5861d07a86a4a25412b1bde1a28d807b381adf1899b8ad18c8fb621941d7b2f",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch0_paired_profile_own_depth_pools.npz": {
+      "sha256": "6d252135ff11869b31cd5695785fb5f8bb5c4cd38839628b94ec13f684fc2885",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch1_independent_profile_depth_pools.npz": {
+      "sha256": "58c5aeb58f2c3ae6e7767d2ba9ea0c164a55bb06063ee6af0daf8a88477dd93a",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch1_paired_profile_own_depth_pools.npz": {
+      "sha256": "65be382386672df6cb8a55b996849d2346c19a7fee703f1b0e860c38c32b7434",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch2_independent_profile_depth_pools.npz": {
+      "sha256": "726a8c25c37b36ba08205040a488762d2dd99def990e96b5b1e5a0f90522315c",
+      "kind": "derived_result"
+    },
+    "revision_01/nuisance/D4_batch2_paired_profile_own_depth_pools.npz": {
+      "sha256": "6e398454783e736bccdc0d065827187e767054a03131734ecace91b65fa0231f",
+      "kind": "derived_result"
+    },
+    "revision_01/operating_points/all_roc_coordinates.tsv.gz": {
+      "sha256": "1d07fedb93fc51945f2acac72cf647ab0d9a7fab0f092648ecfdc846b331130b",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/accepted_matching_quality.tsv.gz": {
+      "sha256": "e7141f9116c93afc53261ee453041f88a07d632de331227fe5c20b4f4e068238",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/candidate_genes.tsv.gz": {
+      "sha256": "bee229e402349ca9238fd4465dc9b5bedeb78c08702f69490295996e1b3037d6",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246767_gene_summaries.npz": {
+      "sha256": "bf1792d48ed47d4772078a1d361cd4d22a38da2feff96d2b4b8a61eef79e6ba9",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246769_gene_summaries.npz": {
+      "sha256": "4c308acffb429a1de6478a91e4d6685be19c8eeffe5b979bb00529a8a7e079be",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246771_gene_summaries.npz": {
+      "sha256": "159f24fa00a992bf8d7badd5ea9e3cb268bbbefb97be7de3d74929be7d5237f8",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246773_gene_summaries.npz": {
+      "sha256": "1060b5c00dad349187f202b4e922819f43aec5873243808f5da8b9b5a05a4d7c",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246775_gene_summaries.npz": {
+      "sha256": "33906d84df48684b3ec5845b10f3139e2006d8a18fbda1e80c987555e8e0884b",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246777_gene_summaries.npz": {
+      "sha256": "ad76e3b46a133e457857b89477b95a958ddcd7ca86ef503c4e51d4e5f6070256",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246779_gene_summaries.npz": {
+      "sha256": "41d70571872905162610de3616d9c4bb455dcd8578427e9bcbcf3b07a420277c",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/GSM8246781_gene_summaries.npz": {
+      "sha256": "6ddafe13c6259feefe05ec5fdb3c94953d352c207f53bc6df80c50c6a88df1ef",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/matched_program_membership.tsv.gz": {
+      "sha256": "401ee2816015ab56954ce137babe1b58dc2736447d6379efaeb1bd686cdaae48",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/matched_programs.npz": {
+      "sha256": "5359293246d72868bac290a35a16dcb81e239107bbc436a258d05ed8bd6da6e8",
+      "kind": "derived_result"
+    },
+    "revision_02/gene_specificity/vehicle_matching_covariates.npz": {
+      "sha256": "9586ff1a89b5057043f4772d8094984a583105af8824944703e9739b151a93db",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/fixed_cohort_contrasts.tsv.gz": {
+      "sha256": "c441391c917cccc518456fd299e4e78bf3d26f7b894cd93c8b924c5e387b01ee",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/fixed_cohort_draws.tsv.gz": {
+      "sha256": "3e277a06a8df75858725d09ec0d6a4ae618698c6c89d20a69387a7c8255cf555",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246767_scores.npz": {
+      "sha256": "427cd56249e23ed4f80a3384e0aaf3634d040848aba9b1c52ce3b8e4a5d586a0",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246769_scores.npz": {
+      "sha256": "767b40d6c21d6722c4f46e67adf46c0d18d3e828dd1bb6a011723387eb72c1d2",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246771_scores.npz": {
+      "sha256": "8cef132761440910a47586fcc49059bf81d2956e7e80b872d331c9755e652d0a",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246773_scores.npz": {
+      "sha256": "f4db7ea44f76a366e2f288994415d69cb4ddf0893bb269dea87609b08f82a3df",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246775_scores.npz": {
+      "sha256": "d65e2448065768f753cde92c6b07e658faab3d429f5fa2bfd6a3324b0ae87012",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246777_scores.npz": {
+      "sha256": "029e15568da3ff8aee317141bd1cd985220538ed14d1d714189b9774de0997e1",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246779_scores.npz": {
+      "sha256": "294b0e490f6ff640d772025ff1631dc30e76150ab206ce491785674424118d9e",
+      "kind": "derived_result"
+    },
+    "revision_02/primary_diagnostics/GSM8246781_scores.npz": {
+      "sha256": "fce4f8d93d5395236f0b38e57d2481460cdca94bc5dfda8fb81e85214adedec3",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/decision_draws.tsv.gz": {
+      "sha256": "41e40bd0bc53504abf5c0e860e54897533195292529621e5453f4c733b671eae",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth10000_seed7800.npz": {
+      "sha256": "9cc5eaeeee4209f2982935e9c081326a9b1d079124471440c4ac320941c8fda1",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth10000_seed7801.npz": {
+      "sha256": "aeed174e6daa832b1a2df2691ad9549faec444b831bf7058f90b72ed77320a3a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth10000_seed7802.npz": {
+      "sha256": "79e307e51b2303457d1ff0e4ddd661991d9b1b71dfa0eb896733dc066f18a643",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth10000_seed7803.npz": {
+      "sha256": "25939418824da921f61a7feda36c1d79a86bbaa90551a230f56034e6860db9f5",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth10000_seed7804.npz": {
+      "sha256": "e9de6c2e91c517cc3e0991e25c536f3d6066b27a911f40bd2a880aaf756cbd44",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth1000_seed7800.npz": {
+      "sha256": "ee8416af739136cb6116d08d5a4beb6b356b6931042eb8afecfa1144911efe35",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth1000_seed7801.npz": {
+      "sha256": "a4b8937f605592c823c0d80ffbdc6bdff677f0042356d953e0671913052b08ff",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth1000_seed7802.npz": {
+      "sha256": "e0b382a0c9c09ab0b1c1dc1a5c3096ce37bb9b757cb0d870007e0097ae09db6f",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth1000_seed7803.npz": {
+      "sha256": "ae761a503dab82fa3ff1b2b4ad144e2fe1bfc30717c339e0b242301ed20ee8b3",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth1000_seed7804.npz": {
+      "sha256": "d064799fa8ff974f253a5b3b00fb1cd0873b3045814ce9449e7aff0b6ba4e01f",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth2000_seed7800.npz": {
+      "sha256": "ab2059dc7b7a0f117756bd16bc8cb44a0c0984192f965f1a45f93a0229c95f4f",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth2000_seed7801.npz": {
+      "sha256": "20266b17c9ff826425f82b8b8edfe03ab0545b6ae5d2fdceb51ed60b376790ea",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth2000_seed7802.npz": {
+      "sha256": "de2fc64ce0ade71fc48df583e4acd98e6104fbfb5aaa3847e08d3791941e46b2",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth2000_seed7803.npz": {
+      "sha256": "d212941f823368fb1932658dc20a82997e4192e2e954be3d927ec6f28f07e9a0",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth2000_seed7804.npz": {
+      "sha256": "4f7483fc697cae9ffc2460fc0b811c3bfd7268b4384da782d3dd2222efb8809d",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth5000_seed7800.npz": {
+      "sha256": "42e2a2e1bfd43364dadb0b16110251f4d627ef713352910c25126e83a4b284bd",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth5000_seed7801.npz": {
+      "sha256": "f5880a7210af1adfe05b925c44e6749b8ed93f993f2f5666a7d03e223c14294a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth5000_seed7802.npz": {
+      "sha256": "85fe727c75d743ac3747d8221c5188d1046e0e9b2e65d9b7a8c189fe37e0085a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth5000_seed7803.npz": {
+      "sha256": "32e1835d62c401814c642fe764ce633f3d27e0c5bd44bed6c2ffc8cc64a34ecd",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_depth5000_seed7804.npz": {
+      "sha256": "e9aa9bd7adff4f9d9e741772bddf88947769a25473ce758e3c04b6db8b03e283",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_native.npz": {
+      "sha256": "af0d7cd558f5db88820b7fbcc9532cbab82009fcbcad94f40a27c3d1408a31d5",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor1_native_thresholds.json": {
+      "sha256": "3771d8b934097ed1d85c6ec12f4c76a084fe0889fb113335846ac146f79d45d6",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth10000_seed7800.npz": {
+      "sha256": "bebd0b9e679c77fe64151c93b3741ff25966ee01113a1b4caf80cf4b95b2ce1e",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth10000_seed7801.npz": {
+      "sha256": "ead4d8ff95b7d10e5ca340cd5cfcd00518971060694d371eaae91043b86ec557",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth10000_seed7802.npz": {
+      "sha256": "cc44804450a368ac23ca511dc48b8ce3357337983e4c2635d63616a657f3b1ea",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth10000_seed7803.npz": {
+      "sha256": "2702f7dc081309d634f006f4d005d520fb4293f419843594f9dd20cef9d00d62",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth10000_seed7804.npz": {
+      "sha256": "bed5df87bc17899dfb1ab460c02d3c1e5e6c313635d05f8a5b025b4d1c62555b",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth1000_seed7800.npz": {
+      "sha256": "43ed7d98f4d3e854c427ee9172e4027c0a4e5693bc3ab8944bfd85ea74b7b068",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth1000_seed7801.npz": {
+      "sha256": "660c6beaa73647507f4c2b1052d794dd5414c670094b7f64a53f27aa362e8334",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth1000_seed7802.npz": {
+      "sha256": "8210aa3eb245fccc67b2b593d2ea01f5e51cd0626377c9ab8d3c24c98664746b",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth1000_seed7803.npz": {
+      "sha256": "b449678b083de376d0a6eb571a47862b15039c7d922026b8b11fdc324790054c",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth1000_seed7804.npz": {
+      "sha256": "47a227ae3dffac5f12f217d249387e9122b66a7f6c5ee047dd89b7c14b1e333e",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth2000_seed7800.npz": {
+      "sha256": "e3435c4c1e9919ecf4d5d9f9c70a5e22fd8c382b91d0048c1ec653914306dd5a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth2000_seed7801.npz": {
+      "sha256": "a1c667b28a41efc026f81d7e2b28f0a61644d4cb5a453bbd4b64249c50afafc8",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth2000_seed7802.npz": {
+      "sha256": "89607bb071129a6425a80a22145e275edededeffa1b841616cca67b194afc61d",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth2000_seed7803.npz": {
+      "sha256": "93d4b69945cf05ceeedc6c877c416c5b7f1325963bf7a08b6997399f5be3cbbf",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth2000_seed7804.npz": {
+      "sha256": "0a37769f51d7ba2026c932901823a8d1003319791508acd57d439b7d5020a368",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth5000_seed7800.npz": {
+      "sha256": "a73e35bdd111ce072f8337fe65aa30b3a008aad510172469a90683dab90e40da",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth5000_seed7801.npz": {
+      "sha256": "3d2f294b69b7b720bd3f9872d1e9b30a11aa442632b1f80fac85249f0df76863",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth5000_seed7802.npz": {
+      "sha256": "8ba68d48692754c7ceb1e4bd630d321386121d9c2d8fbda42b8a5dcc173aa630",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth5000_seed7803.npz": {
+      "sha256": "95138044d7bd1ed552cd90177efb121c0c6fe09c31ab995774400cb353e6614c",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_depth5000_seed7804.npz": {
+      "sha256": "dd78ab565848271a9dc6794198ce59199f28719ce97268b4e5d2f849a07e3d2e",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_native.npz": {
+      "sha256": "2e54f1099a5e77f74cd69a34a993f068c11fd79fc92c95218215efb7981187e8",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor2_native_thresholds.json": {
+      "sha256": "e464964eda3d568fceb4e90f8522b26226359ca091e750928aea2fef1ca28099",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth10000_seed7800.npz": {
+      "sha256": "5e606ae9fe9395aa6326af2f5cfb54cdfb1d06983f5334491c377cd6e1d675a6",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth10000_seed7801.npz": {
+      "sha256": "c462e14772cf7dd1c5d08027b6570fe2077df0e60b933122afd42f414a3083be",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth10000_seed7802.npz": {
+      "sha256": "cf2882dbdadffc56040ff2dc72dbe0e812bbd7a9bb189a2cbdc2c3057e149950",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth10000_seed7803.npz": {
+      "sha256": "27704a2e27e7cd53a8d22d8ae3fd22d0e79eddba6e74fcaac52ef378bf86a71d",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth10000_seed7804.npz": {
+      "sha256": "e70d070b3c550f31f85f787fcf3c5cb3d4fd5ab96c52bbb67154836207839adb",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth1000_seed7800.npz": {
+      "sha256": "32eba7179552a849e27df7d9c9b35000357e184dda2d88330c048acce5b02f40",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth1000_seed7801.npz": {
+      "sha256": "595a0d2d1f03e062c180c89731773f7a5ee76f4711f816af07f839811b6a4568",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth1000_seed7802.npz": {
+      "sha256": "13fe20ba7f092632d85ae0edc32873af51bb38e9f326707e1c89a9a2dabb7e87",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth1000_seed7803.npz": {
+      "sha256": "f01e179a71efdaf0fe4fd4132f5a4fdff9000d7c0fa1a8f2cf1e4e35f5c97688",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth1000_seed7804.npz": {
+      "sha256": "f72c8ad862692bf4ac5248a806ee9b6854458e5823f8c65e49c29e22a2cedcb7",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth2000_seed7800.npz": {
+      "sha256": "df9b5ed5529f6ada32ee46ee2fa0874712ec27564b4f0ce3a1afaa4c76efca46",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth2000_seed7801.npz": {
+      "sha256": "201fb9b60c45d3904ff93121a42af1ade30738f7c6a152afad4c679e0669bbbf",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth2000_seed7802.npz": {
+      "sha256": "9bf49292f1c0d717faca67b0f4f1135664922aab19121ed92bc99f930b7bb58c",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth2000_seed7803.npz": {
+      "sha256": "b0263ba5541106c883bb492d5ed21d8e728348f9a01ea9ad849cdfb0aa61e155",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth2000_seed7804.npz": {
+      "sha256": "b1b425480ff774cedebe84f43c2b9d054f9213e8b38fdb34ae3626802c1d55cb",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth5000_seed7800.npz": {
+      "sha256": "0277987d3921da15244828628922d0f64992dd8151c66636b557a3f0aa4c9e99",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth5000_seed7801.npz": {
+      "sha256": "e376114c3a2e062532cc62c2f48a02bda1df81bbeb491e67599ba0590da3e3f2",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth5000_seed7802.npz": {
+      "sha256": "edf0d111f3ab15a0c5de53171e7dcd585b8403925f0cb1181011c5a123049812",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth5000_seed7803.npz": {
+      "sha256": "eed794b5ef7dc65029f4e4e734785a65ae46a9d6c30bdba1eb6be1473b8b0889",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_depth5000_seed7804.npz": {
+      "sha256": "2d914c3d75457a652c8355fa13ee2f3cac577533c88fe41cfe82cd3ed13d25d9",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_native.npz": {
+      "sha256": "d5b935800c00de46d57ce5e26c6be7f30763ed12527506a5b4bace4f9b7714e9",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor3_native_thresholds.json": {
+      "sha256": "7d286d3082f77966ed7ffd8e92bfa86ec7eb6f2b3c499439b184486977c2c71a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth10000_seed7800.npz": {
+      "sha256": "634ec8f113b6c3f5838206b7fd8b70881cd430ec32fe874254366016a22ad15b",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth10000_seed7801.npz": {
+      "sha256": "55f1c1f15b89326dd3e3f4465b93b539e6f34dc02566afeb433e1c856867761b",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth10000_seed7802.npz": {
+      "sha256": "ae7101edb996c48e205b2a18a39d55c0577b4ed2d93885c11381bb185bc17618",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth10000_seed7803.npz": {
+      "sha256": "4a18f8d75b64204fb69ab5e81941636ba35032cc88131ee5abaeb0df020aba03",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth10000_seed7804.npz": {
+      "sha256": "6ea9a6e13af3b18a9b6c0ba18e1d5211bd41137c974af8aee051b2f0b9be3581",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth1000_seed7800.npz": {
+      "sha256": "3034dd097fbe3b1652621e13ee0e099dcc710ca00f5fe73d36521e0a3e1911c0",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth1000_seed7801.npz": {
+      "sha256": "fb6b486aa582bbf18c66c5572749b3841e6d7236e43fe0e82bb0372d0d277061",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth1000_seed7802.npz": {
+      "sha256": "394ae90fd4b2f18162d538c06d9d1074097392a817d1500803961260b9b8202c",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth1000_seed7803.npz": {
+      "sha256": "805d289f72a512be9b802244b46becb63a898ecbcf375d1c57c3899f2d1a7c1a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth1000_seed7804.npz": {
+      "sha256": "316251118ae33b1fbc53b8fc5609b788659be8288a129bdfec8c9fd883496a1a",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth2000_seed7800.npz": {
+      "sha256": "08ee95121d9476df1c3353596e4594c78717087045c94db90811a950df69055c",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth2000_seed7801.npz": {
+      "sha256": "08fc9aca401fd3f6cbbf8707bfab6b80e5fc8b854e3d8f531f7bbd8fa8727739",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth2000_seed7802.npz": {
+      "sha256": "6a49ee4c8cfb7d80d0fba35a3aad4062cff2617c0fe812b51f2a4f9422c78cb9",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth2000_seed7803.npz": {
+      "sha256": "3d645338caef822d1cad3c5391ca4365569e27a286dccebbefd2ced66bcbe577",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth2000_seed7804.npz": {
+      "sha256": "9a867493cc142d6c501990efb4d2577df62b6307d4fe2243d197a55bf163e4fd",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth5000_seed7800.npz": {
+      "sha256": "beace7ceaadc1f0271f1b7ee3075aff07a4993af4316b7fbcd978be7e3de05fe",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth5000_seed7801.npz": {
+      "sha256": "66a512f8cfe7d7874763e05f55e02de4f826b70b05540175d29565bfc6810386",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth5000_seed7802.npz": {
+      "sha256": "d21b07327e5f6d38eb245e8d4bb5fada5263267526e81391d660a5160bbdb593",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth5000_seed7803.npz": {
+      "sha256": "8a5d3eb493586aecc35621ae4882f01e988cad2b3e58c22581579b80b255c8c7",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_depth5000_seed7804.npz": {
+      "sha256": "4391a7abb907a032a84d404ac23c8d0214c378e543389bfe4f726a568c036f43",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_native.npz": {
+      "sha256": "58709e9b7db493671327996d982ae1515b5e293166ef58438f8cc5b9e2878c2f",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/donor4_native_thresholds.json": {
+      "sha256": "18f73427753bc36e6df7e0506763f9b2256a4b214c23be29ccc523ef82897b77",
+      "kind": "derived_result"
+    },
+    "revision_02/threshold_transport/native_components.tsv.gz": {
+      "sha256": "6b95652244b11a5ef0651c189733d84e94417af21819e84521c680feafb887ae",
+      "kind": "derived_result"
+    }
+  }
+}

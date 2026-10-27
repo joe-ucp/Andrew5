@@ -1,0 +1,15 @@
+{
+  "delta_by_donor": {
+    "D1": 0.004742668000885464,
+    "D2": 0.013636700248157135,
+    "D3": 0.02066078976449269,
+    "D4": 0.024505531975096695
+  },
+  "mean_delta": 0.015886422497157996,
+  "descriptive_one_sided_sign_flip_tail": 0.0625,
+  "randomization_test": false,
+  "technical_calibration_pass": false,
+  "biological_specificity": "UNRESOLVED",
+  "joint_prediction": "UNRESOLVED",
+  "primary_interpretation": "prespecified diagnostic after failed external calibration"
+}

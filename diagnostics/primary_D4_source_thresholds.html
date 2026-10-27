@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Signature diagnostic</title><style>body{font:16px system-ui,sans-serif;max-width:1250px;margin:32px auto;padding:0 20px;color:#171717}h1,h2{line-height:1.2}.scope{padding:14px;background:#eef2f5}table{border-collapse:collapse;font-size:13px}th,td{border:1px solid #ccc;padding:7px;text-align:left;vertical-align:top}th{background:#f3f3f3}.scroll{overflow-x:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}</style><h1>Signature diagnostic</h1><p class="scope">No corrected score, pass/fail conclusion, conversion probability, ancestry assignment or functional claim is produced.</p><h2>Eligibility</h2><pre>{
+  &quot;input_cells&quot;: 6895,
+  &quot;positive_total_cells&quot;: 6895,
+  &quot;excluded_zero_total_cells&quot;: 0,
+  &quot;metadata_reordered_by_cell_id&quot;: false,
+  &quot;minimum_group_size&quot;: 20,
+  &quot;counts_retained_below_minimum&quot;: true,
+  &quot;rates_and_directional_flags_suppressed_below_minimum&quot;: true
+}</pre><h2>Signature and definitions</h2><pre>{
+  &quot;signature&quot;: {
+    &quot;universe_n&quot;: 12051,
+    &quot;up_n&quot;: 50,
+    &quot;down_n&quot;: 50,
+    &quot;universe_genes_absent_from_input&quot;: [],
+    &quot;up_genes_absent_from_input&quot;: [],
+    &quot;down_genes_absent_from_input&quot;: [],
+    &quot;missing_gene_policy&quot;: &quot;Zero-filled inside the explicit universe; original block denominators retained.&quot;
+  },
+  &quot;definitions&quot;: {
+    &quot;score&quot;: &quot;occupancy_component + positive_rank_residual&quot;,
+    &quot;occupancy_component&quot;: &quot;0.5*(detected_up/up_n - detected_down/down_n)&quot;,
+    &quot;zero_rank_baseline&quot;: &quot;(universe_n - detected_universe_genes)/(2*universe_n)&quot;,
+    &quot;centered_blocks&quot;: &quot;Signed block contributions after removing their cancelling zero-rank baselines.&quot;,
+    &quot;ucell_form&quot;: &quot;Fixed cap1500 and frozen universe; signed block difference clipped at0. This is not a package-equivalence claim.&quot;,
+    &quot;unclipped_ucell_difference&quot;: &quot;Explanatory pre-clipping difference, not a proposed replacement scorer.&quot;
+  }
+}</pre><h2>Group detection means</h2><div class="scroll"><table><thead><tr><th>group</th><th>n</th><th>total counts</th><th>k positive</th><th>k up</th><th>k down</th><th>up detection fraction</th><th>down detection fraction</th></tr></thead><tbody><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>1957</td><td>11103.3</td><td>2632.62</td><td>3.02504</td><td>14.0971</td><td>0.0605008</td><td>0.281942</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>4938</td><td>6489.24</td><td>1692.54</td><td>2.34953</td><td>11.5049</td><td>0.0469907</td><td>0.230097</td></tr></tbody></table></div><h2>Zero baselines and centered blocks</h2><div class="scroll"><table><thead><tr><th>group</th><th>n</th><th>zero rank baseline</th><th>up rank contribution</th><th>down rank contribution</th><th>centered up</th><th>centered down</th></tr></thead><tbody><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>1957</td><td>0.390772</td><td>0.419731</td><td>-0.542554</td><td>0.0289595</td><td>-0.151782</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>4938</td><td>0.429776</td><td>0.452707</td><td>-0.551025</td><td>0.0229313</td><td>-0.121249</td></tr></tbody></table></div><h2>Exact score decomposition</h2><div class="scroll"><table><thead><tr><th>group</th><th>n</th><th>occupancy component</th><th>positive rank residual</th><th>signed rank</th><th>residual bound</th></tr></thead><tbody><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>1957</td><td>-0.11072</td><td>-0.0121024</td><td>-0.122823</td><td>0.0399824</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>4938</td><td>-0.0915533</td><td>-0.00676409</td><td>-0.0983173</td><td>0.0207468</td></tr></tbody></table></div><h2>Declared scoring methods</h2><div class="scroll"><table><thead><tr><th>group</th><th>n</th><th>signed rank</th><th>signed log1p CPT10K</th><th>ucell form 1500</th><th>unclipped ucell difference</th><th>ucell zero floor fraction</th></tr></thead><tbody><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>1957</td><td>-0.122823</td><td>-0.319698</td><td>1.4964e-05</td><td>-0.134575</td><td>0.998978</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>4938</td><td>-0.0983173</td><td>-0.310535</td><td>4.00902e-06</td><td>-0.134049</td><td>0.999392</td></tr></tbody></table></div><h2>Supplied strict thresholds</h2><div class="scroll"><table><thead><tr><th>group</th><th>method</th><th>evaluable cells</th><th>non evaluable cells</th><th>threshold</th><th>rule</th><th>positive n</th><th>not positive n</th><th>tie n</th><th>rate eligible</th><th>positive fraction</th></tr></thead><tbody><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>signed_rank</td><td>1957</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>1</td><td>1956</td><td>0</td><td>True</td><td>0.000510986</td></tr><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>signed_log1p_CPT10K</td><td>1957</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>2</td><td>1955</td><td>0</td><td>True</td><td>0.00102197</td></tr><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>ucell_form_1500</td><td>1957</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>2</td><td>1955</td><td>1955</td><td>True</td><td>0.00102197</td></tr><tr><td>donor=D4; treatment=D; state=broad_alpha_proxy</td><td>unclipped_ucell_difference</td><td>1957</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>2</td><td>1955</td><td>0</td><td>True</td><td>0.00102197</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>signed_rank</td><td>4938</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>8</td><td>4930</td><td>2</td><td>True</td><td>0.00162009</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>signed_log1p_CPT10K</td><td>4938</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>3</td><td>4935</td><td>2</td><td>True</td><td>0.000607533</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>ucell_form_1500</td><td>4938</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>3</td><td>4935</td><td>4935</td><td>True</td><td>0.000607533</td></tr><tr><td>donor=D4; treatment=H_GLP; state=broad_alpha_proxy</td><td>unclipped_ucell_difference</td><td>4938</td><td>0</td><td>0</td><td>score &gt; supplied threshold</td><td>3</td><td>4935</td><td>2</td><td>True</td><td>0.000607533</td></tr></tbody></table></div><h2>Treatment or labelled comparison directions</h2><div class="scroll"><table><thead><tr><th>stratum</th><th>baseline</th><th>comparison</th><th>baseline n</th><th>comparison n</th><th>change signed rank</th><th>change up detection fraction</th><th>change down detection fraction</th><th>change occupancy component</th><th>change positive rank residual</th><th>score rises while down detection falls</th><th>score rises while up detection falls</th></tr></thead><tbody><tr><td>donor=D4; state=broad_alpha_proxy</td><td>D</td><td>H_GLP</td><td>1957</td><td>4938</td><td>0.0245055</td><td>-0.0135101</td><td>-0.0518445</td><td>0.0191672</td><td>0.0053383</td><td>True</td><td>True</td></tr></tbody></table></div><h2>Explicitly paired threshold transitions</h2><p>No comparison was requested or available.</p><h2>State discrimination</h2><p>No comparison was requested or available.</p><h2>Provenance</h2><pre>{
+  &quot;synthetic_example&quot;: false,
+  &quot;input_files&quot;: {
+    &quot;matrix&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/counts.npz&quot;,
+      &quot;sha256&quot;: &quot;8e295b14f539ea17ae1e4ba3fb1b9562d64e545b98edba198642df911ed427c3&quot;
+    },
+    &quot;genes&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/genes.txt&quot;,
+      &quot;sha256&quot;: &quot;04e622b844e8b695f70917931cae6ba7cff0cadfe3da312e2af354336a05cb97&quot;
+    },
+    &quot;cells&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/cells.txt&quot;,
+      &quot;sha256&quot;: &quot;ef6099d68319a9e5156a18adf914c5561a3a85ae3656ff231ea69d33f0bc058c&quot;
+    },
+    &quot;signature&quot;: {
+      &quot;path&quot;: &quot;repository/evidence/frozen_score.json&quot;,
+      &quot;sha256&quot;: &quot;9bf9a9c54fc987ead9ff87d8ee97a93d8b2816ff4696fec789bdb4bf8e947b0a&quot;
+    },
+    &quot;metadata&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/metadata.tsv&quot;,
+      &quot;sha256&quot;: &quot;9fb069418ae8603c91d938a0ccf409497c9e69bc09743e2037314c6aff71046a&quot;
+    },
+    &quot;thresholds&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/primary_D4_source_thresholds_thresholds.json&quot;,
+      &quot;sha256&quot;: &quot;e5c65f060e5654d0dc9ec63ef73bb36c95d76774411148b3031c1add741e3214&quot;
+    },
+    &quot;provenance&quot;: {
+      &quot;path&quot;: &quot;external_data_root/revision_02/diagnostic_worked/primary_D4/provenance.json&quot;,
+      &quot;sha256&quot;: &quot;83bd28acd84feeb2e27780385a45d62de293340d05d079366679db35b0e8086a&quot;
+    }
+  },
+  &quot;supplied&quot;: {
+    &quot;source&quot;: &quot;GSE266427 donorD4&quot;,
+    &quot;contrast&quot;: &quot;Harmine plus native GLP-1 versus vehicle at96h&quot;,
+    &quot;population&quot;: &quot;Previously fixed broad alpha proxy; not published curated candidate labels or ancestry truth.&quot;,
+    &quot;upstream_masks&quot;: [
+      {
+        &quot;accession&quot;: &quot;GSM8246779&quot;,
+        &quot;mask_file_sha256&quot;: &quot;09496b4545a4ca5dbc53456f568b9ff880d4ff24f6e40d59bf1c61cf373a3c38&quot;,
+        &quot;broad_alpha_n&quot;: 1957
+      },
+      {
+        &quot;accession&quot;: &quot;GSM8246781&quot;,
+        &quot;mask_file_sha256&quot;: &quot;88edb16a52cc3993c24951482fd5b5216fa0bc8f80f8b37dabce39e4b1917bc4&quot;,
+        &quot;broad_alpha_n&quot;: 4938
+      }
+    ],
+    &quot;matrix_scope&quot;: &quot;Original frozen universe; whole-library totals preserved.&quot;,
+    &quot;threshold_context&quot;: &quot;Frozen source-reference thresholds from evidence/revision_02/source_threshold_freeze.json&quot;,
+    &quot;plan_sha256&quot;: &quot;ffe096805c8885ed7f00109fb116650313eb392e07a0ab63c2bc9312e9bd5930&quot;
+  },
+  &quot;threshold_origin&quot;: &quot;Supplied by caller; not fitted or validated by this diagnostic.&quot;,
+  &quot;code_sha256&quot;: {
+    &quot;signature_diagnostic.py&quot;: &quot;89eea3cd44fa8306df12c1e14d43f12f24e20f99984329dcfc1a8699bb4a7755&quot;,
+    &quot;revision02_math.py&quot;: &quot;cf03cd73716e845a49d576dd4f52ede8e0c1ae160571d1326762f5a0222fc0cd&quot;,
+    &quot;revision_score.py&quot;: &quot;df4f0ea9f328f23963d7f463a21d2f25fe8c6d87dfb5f48b8425cd1abc34ef9f&quot;
+  },
+  &quot;public_projection&quot;: &quot;Physical paths replaced by logical roots; full execution report retained in external storage.&quot;,
+  &quot;public_render_code_sha256&quot;: &quot;39ebe23fff4b6f495944e6ec1f081d69fad8b438cf6aeb2cc1d10073bce4871f&quot;
+}</pre></html>

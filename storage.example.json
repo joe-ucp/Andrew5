@@ -1,0 +1,5 @@
+{
+  "data_root": "/absolute/path/outside/the/code/repository",
+  "windows_allowed_drives": [],
+  "note": "Optional user configuration: copy outside the repository to the OS user configuration path documented in README.md, or select an absolute external file with STRIKE007_STORAGE_POLICY. Set a platform-native absolute data_root. Windows installations may restrict drives, for example [\"D:\"]. No data path may overlap the repository."
+}
